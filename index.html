@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Learning EventMachine</title>
+
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+
+    <style type="text/css">
+      html { height: 100% }
+      body { height: 100%; margin: 0px; padding: 0px }
+      #map_canvas { height: 95% }
+    </style>
+
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js'></script>
+    <script>
+      var ws;
+
+      $(document).ready(function()
+      {
+        if (!("WebSocket" in window))
+        {
+          alert("Sorry, WebSockets unavailable.");
+          return;
+        }
+
+        ws = new WebSocket("ws://localhost:8080/");
+        ws.onmessage = function(evt)
+        {
+          console.log(evt);
+          var img = JSON.parse(evt.data);
+          if(img.type == "image")
+            $("body").append("<img src='" + img.url + "' width=" + img.width + " height=" + img.height + " />"); 
+        };
+
+        ws.onclose = function()
+        {
+          console.log("socket closed");
+        };
+
+        $('#submit').click(function()
+        {
+          send(this);
+          return false;
+        });
+      });
+
+      function send(sender)
+      {
+        var val = $('#postal_code').val();
+        if (val != '') ws.send(val);
+      }
+    </script>
+  </head>
+  <body>
+    <form>
+      <label>Postal/Zip Code</label>
+      <input type='text' autofocus='true' id='postal_code' name='postal_code' value='http://www.arizona.edu' />&nbsp;
+      <input type='submit' id='submit' />
+    </form>
+  </body>
+</html>
