@@ -1,0 +1,760 @@
+---
+- !ruby/struct:VCR::HTTPInteraction
+  request: !ruby/struct:VCR::Request
+    method: :get
+    uri: http://www.thinkgeek.com:80/tshirts-apparel/unisex/generic/894a/
+    body: !!null 
+    headers: !!null 
+  response: !ruby/struct:VCR::Response
+    status: !ruby/struct:VCR::ResponseStatus
+      code: 200
+      message: OK
+    headers:
+      server:
+      - Apache/2.2.21 (Unix) mod_apreq2-20090110/2.7.1 mod_perl/2.0.4 Perl/v5.8.8
+      set-cookie:
+      - spunkymonkey=7a8d712285442fbc75e78146; path=/; domain=.thinkgeek.com; expires=Sat,
+        29-Dec-2012 22:09:02 GMT
+      - swingingmonkey=9499DC0CCA3F55171A8CD1F73CD36538; path=/; domain=.thinkgeek.com;
+        expires=Sat, 29-Dec-2012 22:09:03 GMT
+      pragma:
+      - no-cache
+      cache-control:
+      - no-cache
+      x-geek-pagefetch:
+      - 'Yes'
+      expires:
+      - Fri, 30 Dec 2011 22:09:03 GMT
+      content-type:
+      - text/html
+      content-length:
+      - '62860'
+      date:
+      - Fri, 30 Dec 2011 22:09:03 GMT
+      x-varnish:
+      - '674291603'
+      age:
+      - '0'
+      vary:
+      - Accept-Encoding
+    body: ! "\n\n\n\n\n\t\n\n\n\n\t\n\t\t\n\t\t\n\n<!DOCTYPE HTML PUBLIC \"-//W3C//DTD
+      HTML 4.01 Transitional//EN\"\n\t\"http://www.w3.org/TR/html4/loose.dtd\">\n\n<!--[if
+      lt IE 7 ]><html class=\"ie ie6 lte8 lte7\"  xmlns:og=\"http://opengraphprotocol.org/schema/\"
+      xmlns:fb=\"http://www.facebook.com/2008/fbml\"><![endif]-->\n<!--[if IE 7 ]><html
+      class=\"ie ie7 lte8 lte7\"  xmlns:og=\"http://opengraphprotocol.org/schema/\"
+      xmlns:fb=\"http://www.facebook.com/2008/fbml\">  <![endif]-->\n<!--[if IE 8
+      ]><html class=\"ie ie8 lte8\"  xmlns:og=\"http://opengraphprotocol.org/schema/\"
+      xmlns:fb=\"http://www.facebook.com/2008/fbml\"><![endif]-->\n<!--[if gt IE 8]><!--><html
+      xmlns:og=\"http://opengraphprotocol.org/schema/\" xmlns:fb=\"http://www.facebook.com/2008/fbml\"><!--<![endif]-->\n<head>\n\n\t\n\t<script
+      type=\"text/javascript\" src=\"/js/jquery-1.5.2.min.js\"></script>\n\t<script
+      type=\"text/javascript\" src=\"/js/global.js\"></script>\n\t\n\t\n\t\t<!-- 20111214_SearchAutocomplete
+      GWO Test -->\n\t\t<!-- Google Website Optimizer Tracking Script -->\n\t\t<script
+      type=\"text/javascript\">\n\t\t  var _gaq = _gaq || [];\n\t\t  _gaq.push(['gwo._setAccount',
+      'UA-4290507-2']);\n\t\t  _gaq.push(['gwo._trackPageview', '/2074692025/goal']);\n\t\t
+      \ (function() {\n\t\t    var ga = document.createElement('script'); ga.type
+      = 'text/javascript'; ga.async = true;\n\t\t    ga.src = ('https:' == document.location.protocol
+      ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\n\t\t    var
+      s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga,
+      s);\n\t\t  })();\n\t\t</script>\n\t\t<!-- End of Google Website Optimizer Tracking
+      Script -->\n\t\n\t\n\t\n\n\t\n\t\t<!-- 20111214_SearchAutocomplete GWO Test
+      -->\n\t\t\n\t\t\n\t\t<!-- auto complete search bits -->\n\t\t<script type=\"text/javascript\"
+      src=\"/js/jquery/jquery-ui-1.8.6.custom.min.js\"></script>\n\t\t<script type=\"text/javascript\">\n\t\t\t$(document).ready(function()
+      {\n\n\t\t\t\t// terms\n\t\t\t\tvar searchTerms = [\n\t\t\t\t\t\"8 Bit\",\n\t\t\t\t\t\"Acrobots\",\n\t\t\t\t\t\"Airzooka\",\n\t\t\t\t\t\"Alarm
+      Clock\",\n\t\t\t\t\t\"Alcohol\",\n\t\t\t\t\t\"Alien\",\n\t\t\t\t\t\"Android\",\n\t\t\t\t\t\"Angry
+      Birds\",\n\t\t\t\t\t\"Annoy\",\n\t\t\t\t\t\"Aperture\",\n\t\t\t\t\t\"Apron\",\n\t\t\t\t\t\"Astronaut
+      Ice Cream\",\n\t\t\t\t\t\"Baby\",\n\t\t\t\t\t\"Back to the Future\",\n\t\t\t\t\t\"Bacon\",\n\t\t\t\t\t\"Bacon
+      Popcorn\",\n\t\t\t\t\t\"Bag\",\n\t\t\t\t\t\"Bag of Holding\",\n\t\t\t\t\t\"Batman\",\n\t\t\t\t\t\"Batteries\",\n\t\t\t\t\t\"Battlestar
+      Galactica\",\n\t\t\t\t\t\"Bawls\",\n\t\t\t\t\t\"Bazinga\",\n\t\t\t\t\t\"Beer\",\n\t\t\t\t\t\"Bell
+      Curve\",\n\t\t\t\t\t\"Big Bang\",\n\t\t\t\t\t\"Big Bang Theory\",\n\t\t\t\t\t\"Binary\",\n\t\t\t\t\t\"Binary
+      People\",\n\t\t\t\t\t\"Bioshock\",\n\t\t\t\t\t\"Boba Fett\",\n\t\t\t\t\t\"Book
+      of Secrets\",\n\t\t\t\t\t\"Books\",\n\t\t\t\t\t\"Bottle Opener\",\n\t\t\t\t\t\"Brain\",\n\t\t\t\t\t\"Bucky\",\n\t\t\t\t\t\"Buckyballs\",\n\t\t\t\t\t\"Buckycubes\",\n\t\t\t\t\t\"Butterfly\",\n\t\t\t\t\t\"Caffeine\",\n\t\t\t\t\t\"Caffeine
+      Mug\",\n\t\t\t\t\t\"Calendar\",\n\t\t\t\t\t\"Camera\",\n\t\t\t\t\t\"Canary\",\n\t\t\t\t\t\"Captain
+      America\",\n\t\t\t\t\t\"Car\",\n\t\t\t\t\t\"Cat\",\n\t\t\t\t\t\"Catnip\",\n\t\t\t\t\t\"Cats\",\n\t\t\t\t\t\"Cave
+      Johnson\",\n\t\t\t\t\t\"Charger\",\n\t\t\t\t\t\"Chemistry\",\n\t\t\t\t\t\"Chess\",\n\t\t\t\t\t\"Chocolate\",\n\t\t\t\t\t\"Chopsticks\",\n\t\t\t\t\t\"Christmas\",\n\t\t\t\t\t\"Clock\",\n\t\t\t\t\t\"Clocks\",\n\t\t\t\t\t\"Coffee\",\n\t\t\t\t\t\"Coffee
+      Mug\",\n\t\t\t\t\t\"Companion Cube\",\n\t\t\t\t\t\"Cookie\",\n\t\t\t\t\t\"Costumes\",\n\t\t\t\t\t\"Credit
+      Card Light\",\n\t\t\t\t\t\"Cthulhu\",\n\t\t\t\t\t\"Cube\",\n\t\t\t\t\t\"Cup\",\n\t\t\t\t\t\"Cupcake\",\n\t\t\t\t\t\"D&D\",\n\t\t\t\t\t\"D20\",\n\t\t\t\t\t\"Dalek\",\n\t\t\t\t\t\"Darth
+      Vader\",\n\t\t\t\t\t\"Despair Calendar\",\n\t\t\t\t\t\"Dexter\",\n\t\t\t\t\t\"Dice\",\n\t\t\t\t\t\"Dinosaur\",\n\t\t\t\t\t\"Diy\",\n\t\t\t\t\t\"Doctor\",\n\t\t\t\t\t\"Doctor
+      Who\",\n\t\t\t\t\t\"Dog\",\n\t\t\t\t\t\"Domo\",\n\t\t\t\t\t\"Doodle\",\n\t\t\t\t\t\"Dr.
+      Who\",\n\t\t\t\t\t\"Dr.Who\",\n\t\t\t\t\t\"Drum Shirt\",\n\t\t\t\t\t\"Electronic
+      Butterfly\",\n\t\t\t\t\t\"Emulator\",\n\t\t\t\t\t\"Eviltron\",\n\t\t\t\t\t\"Fallout\",\n\t\t\t\t\t\"Ferrous
+      Wheel\",\n\t\t\t\t\t\"Find Stuff\",\n\t\t\t\t\t\"Firefly\",\n\t\t\t\t\t\"Firesteel\",\n\t\t\t\t\t\"Fish\",\n\t\t\t\t\t\"Flash
+      Drive\",\n\t\t\t\t\t\"Food\",\n\t\t\t\t\t\"Futurama\",\n\t\t\t\t\t\"Game of
+      Thrones\",\n\t\t\t\t\t\"Games\",\n\t\t\t\t\t\"Gaming\",\n\t\t\t\t\t\"Gears of
+      War\",\n\t\t\t\t\t\"Geek Pen\",\n\t\t\t\t\t\"Geekdad\",\n\t\t\t\t\t\"Ghost Chili\",\n\t\t\t\t\t\"Ghost
+      Pepper\",\n\t\t\t\t\t\"Ghostbusters\",\n\t\t\t\t\t\"Glass\",\n\t\t\t\t\t\"Glasses\",\n\t\t\t\t\t\"Gloves\",\n\t\t\t\t\t\"Green
+      Laser Pointer\",\n\t\t\t\t\t\"Grow\",\n\t\t\t\t\t\"Guitar\",\n\t\t\t\t\t\"Guitar
+      Pick\",\n\t\t\t\t\t\"Guitar Pick Maker\",\n\t\t\t\t\t\"Guitar Shirt\",\n\t\t\t\t\t\"Gun\",\n\t\t\t\t\t\"Gyroscope\",\n\t\t\t\t\t\"Half
+      Life\",\n\t\t\t\t\t\"Halo\",\n\t\t\t\t\t\"Han Solo\",\n\t\t\t\t\t\"Harry Potter\",\n\t\t\t\t\t\"Hat\",\n\t\t\t\t\t\"Headphones\",\n\t\t\t\t\t\"Heart\",\n\t\t\t\t\t\"Helicopter\",\n\t\t\t\t\t\"Hello
+      Kitty\",\n\t\t\t\t\t\"Hoodies\",\n\t\t\t\t\t\"Hot Sauce\",\n\t\t\t\t\t\"I Void
+      Warranties\",\n\t\t\t\t\t\"Ice\",\n\t\t\t\t\t\"Ice Cube\",\n\t\t\t\t\t\"Ice
+      Straws\",\n\t\t\t\t\t\"Ice Tray\",\n\t\t\t\t\t\"Inigo\",\n\t\t\t\t\t\"Inigo
+      Montoya\",\n\t\t\t\t\t\"Ipad\",\n\t\t\t\t\t\"Iphone\",\n\t\t\t\t\t\"Iphone Case\",\n\t\t\t\t\t\"Iphone
+      Glove\",\n\t\t\t\t\t\"Ipod\",\n\t\t\t\t\t\"Iron Man\",\n\t\t\t\t\t\"Japan\",\n\t\t\t\t\t\"Kelvin\",\n\t\t\t\t\t\"Key\",\n\t\t\t\t\t\"Keyboard\",\n\t\t\t\t\t\"Keychain\",\n\t\t\t\t\t\"Kitchen\",\n\t\t\t\t\t\"Kitty\",\n\t\t\t\t\t\"Knife\",\n\t\t\t\t\t\"Lamp\",\n\t\t\t\t\t\"Laser\",\n\t\t\t\t\t\"Led\",\n\t\t\t\t\t\"Left
+      4 Dead\",\n\t\t\t\t\t\"Lego\",\n\t\t\t\t\t\"Light Saber\",\n\t\t\t\t\t\"Lights\",\n\t\t\t\t\t\"Lightsaber\",\n\t\t\t\t\t\"Lip
+      Balm\",\n\t\t\t\t\t\"Lord of the Rings\",\n\t\t\t\t\t\"Magic\",\n\t\t\t\t\t\"Magic
+      Chocolate\",\n\t\t\t\t\t\"Magnetic\",\n\t\t\t\t\t\"Magnets\",\n\t\t\t\t\t\"Mario\",\n\t\t\t\t\t\"Marvel\",\n\t\t\t\t\t\"Math\",\n\t\t\t\t\t\"Math
+      Clock\",\n\t\t\t\t\t\"Maze Pen\",\n\t\t\t\t\t\"Maze Pen\",\n\t\t\t\t\t\"Meh\",\n\t\t\t\t\t\"Microbes\",\n\t\t\t\t\t\"Minecraft\",\n\t\t\t\t\t\"Mini
+      Weapons\",\n\t\t\t\t\t\"Miracle Fruit\",\n\t\t\t\t\t\"Monkey\",\n\t\t\t\t\t\"Monty
+      Python\",\n\t\t\t\t\t\"Mugs\",\n\t\t\t\t\t\"Music\",\n\t\t\t\t\t\"Nerf\",\n\t\t\t\t\t\"Ninja\",\n\t\t\t\t\t\"Nintendo\",\n\t\t\t\t\t\"No
+      I Will Not Fix Your Computer\",\n\t\t\t\t\t\"Origami\",\n\t\t\t\t\t\"Origami
+      Sticky Notes\",\n\t\t\t\t\t\"Ornament\",\n\t\t\t\t\t\"Pac Man\",\n\t\t\t\t\t\"Pacifier\",\n\t\t\t\t\t\"Penny\",\n\t\t\t\t\t\"Pens\",\n\t\t\t\t\t\"Periodic
+      Table\",\n\t\t\t\t\t\"Pets\",\n\t\t\t\t\t\"Phone\",\n\t\t\t\t\t\"Pi\",\n\t\t\t\t\t\"Pick
+      Punch\",\n\t\t\t\t\t\"Pizza Cutter\",\n\t\t\t\t\t\"Planet Express\",\n\t\t\t\t\t\"Plants\",\n\t\t\t\t\t\"Plush\",\n\t\t\t\t\t\"Pokémon\",\n\t\t\t\t\t\"Portal\",\n\t\t\t\t\t\"Posters\",\n\t\t\t\t\t\"Putty\",\n\t\t\t\t\t\"Puzzles\",\n\t\t\t\t\t\"R2D2\",\n\t\t\t\t\t\"Remotes\",\n\t\t\t\t\t\"Rings\",\n\t\t\t\t\t\"Robots\",\n\t\t\t\t\t\"Rock
+      Paper Scissors\",\n\t\t\t\t\t\"Root Beer\",\n\t\t\t\t\t\"Rubik Cube\",\n\t\t\t\t\t\"Saber\",\n\t\t\t\t\t\"Sarcasm\",\n\t\t\t\t\t\"Schematic
+      Tee\",\n\t\t\t\t\t\"Science\",\n\t\t\t\t\t\"Screaming Monkey\",\n\t\t\t\t\t\"Serenity\",\n\t\t\t\t\t\"Shark\",\n\t\t\t\t\t\"Shirts\",\n\t\t\t\t\t\"Shot
+      Glass\",\n\t\t\t\t\t\"Shower Curtain\",\n\t\t\t\t\t\"Shower Shock\",\n\t\t\t\t\t\"Skyrim\",\n\t\t\t\t\t\"Slide
+      Rule\",\n\t\t\t\t\t\"Slippers\",\n\t\t\t\t\t\"Slurm\",\n\t\t\t\t\t\"Smart Mass\",\n\t\t\t\t\t\"Smart
+      String\",\n\t\t\t\t\t\"Socks\",\n\t\t\t\t\t\"Soft Kitty\",\n\t\t\t\t\t\"Solar\",\n\t\t\t\t\t\"Solar
+      Charger\",\n\t\t\t\t\t\"Sonic\",\n\t\t\t\t\t\"Sonic Screwdriver\",\n\t\t\t\t\t\"Soylent\",\n\t\t\t\t\t\"Space\",\n\t\t\t\t\t\"Speakers\",\n\t\t\t\t\t\"Spork\",\n\t\t\t\t\t\"Spy\",\n\t\t\t\t\t\"Stand
+      Back\",\n\t\t\t\t\t\"Stapler\",\n\t\t\t\t\t\"Star\",\n\t\t\t\t\t\"Star Trek\",\n\t\t\t\t\t\"Star
+      Trek Pizza\",\n\t\t\t\t\t\"Star Wars\",\n\t\t\t\t\t\"Starcraft\",\n\t\t\t\t\t\"Stargate\",\n\t\t\t\t\t\"Starwars\",\n\t\t\t\t\t\"Steampunk\",\n\t\t\t\t\t\"Sticky
+      Notes\",\n\t\t\t\t\t\"Stress Ball\",\n\t\t\t\t\t\"Stress Balls\",\n\t\t\t\t\t\"Sugru\",\n\t\t\t\t\t\"Survival\",\n\t\t\t\t\t\"Sushi\",\n\t\t\t\t\t\"Swedish\",\n\t\t\t\t\t\"Sword\",\n\t\t\t\t\t\"T
+      Shirts\",\n\t\t\t\t\t\"Tape Measure\",\n\t\t\t\t\t\"Tardis\",\n\t\t\t\t\t\"Tea\",\n\t\t\t\t\t\"the
+      Big Bang Theory\",\n\t\t\t\t\t\"the Book Was Better\",\n\t\t\t\t\t\"Tie\",\n\t\t\t\t\t\"Titanium
+      Spork\",\n\t\t\t\t\t\"Titanium Straw\",\n\t\t\t\t\t\"Trek\",\n\t\t\t\t\t\"Tron\",\n\t\t\t\t\t\"Turret\",\n\t\t\t\t\t\"Umbrella\",\n\t\t\t\t\t\"Unicorn\",\n\t\t\t\t\t\"Unicorn
+      Meat\",\n\t\t\t\t\t\"Usb\",\n\t\t\t\t\t\"Usb Hub\",\n\t\t\t\t\t\"Usb Plasma
+      Ball\",\n\t\t\t\t\t\"Video Games\",\n\t\t\t\t\t\"Walking Dead\",\n\t\t\t\t\t\"Wallet\",\n\t\t\t\t\t\"Wand\",\n\t\t\t\t\t\"Warcraft\",\n\t\t\t\t\t\"Wasabi\",\n\t\t\t\t\t\"Watch\",\n\t\t\t\t\t\"Watches\",\n\t\t\t\t\t\"Whiskey
+      Stones\",\n\t\t\t\t\t\"Who\",\n\t\t\t\t\t\"Women's Classic Cut\",\n\t\t\t\t\t\"Wonder
+      Woman\",\n\t\t\t\t\t\"World of Warcraft\",\n\t\t\t\t\t\"Wrapping Paper\",\n\t\t\t\t\t\"Wreath\",\n\t\t\t\t\t\"Yoda\",\n\t\t\t\t\t\"You
+      Are Here\",\n\t\t\t\t\t\"Zelda\",\n\t\t\t\t\t\"Zelda Ocarina\",\n\t\t\t\t\t\"Zombies\"\n\t\t\t\t];\n\n\t\t\t\t//
+      init\n\t\t\t\t$( '#search #search-term.testing' ).autocomplete({\n\t\t\t\t\tsource:
+      searchTerms,\n\t\t\t\t\tminLength: 3,\n\t\t\t\t\tappendTo: \"#search\"\n\t\t\t\t});\n\t\t\t});\n\t\t</script>\n\t\t\n\t\t<!--
+      Google Website Optimizer Control Script -->\n\t\t<script>\n\t\tfunction utmx_section(){}function
+      utmx(){}\n\t\t(function(){var k='2074692025',d=document,l=d.location,c=d.cookie;function
+      f(n){\n\t\tif(c){var i=c.indexOf(n+'=');if(i>-1){var j=c.indexOf(';',i);return
+      escape(c.substring(i+n.\n\t\tlength+1,j<0?c.length:j))}}}var x=f('__utmx'),xx=f('__utmxx'),h=l.hash;\n\t\td.write('<sc'+'ript
+      src=\"'+\n\t\t'http'+(l.protocol=='https:'?'s://ssl':'://www')+'.google-analytics.com'\n\t\t+'/siteopt.js?v=1&utmxkey='+k+'&utmx='+(x?x:'')+'&utmxx='+(xx?xx:'')+'&utmxtime='\n\t\t+new
+      Date().valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+\n\t\t'\" type=\"text/javascript\"
+      charset=\"utf-8\"></sc'+'ript>')})();\n\t\t</script>\n\t\t<!-- End of Google
+      Website Optimizer Control Script -->\n\t\t<!-- Google Website Optimizer Tracking
+      Script -->\n\t\t<script type=\"text/javascript\">\n\t\t  var _gaq = _gaq ||
+      [];\n\t\t  _gaq.push(['gwo._setAccount', 'UA-4290507-2']);\n\t\t  _gaq.push(['gwo._trackPageview',
+      '/2074692025/test']);\n\t\t  (function() {\n\t\t    var ga = document.createElement('script');
+      ga.type = 'text/javascript'; ga.async = true;\n\t\t    ga.src = ('https:' ==
+      document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';\n\t\t
+      \   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga,
+      s);\n\t\t  })();\n\t\t</script>\n\t\t<!-- End of Google Website Optimizer Tracking
+      Script -->\n\t\n\n \t<title> \t\t\t    ThinkGeek :: Prefectionist \t</title>\n
+      \ \t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=ISO-8859-1\"
+      />\n\t\n\t    <meta name=\"keywords\" content=\"Prefectionist - enginners genius
+      0906 mad scientists organizing obsessive compulsive thinkgeek think geek gifts
+      for geeks\">\n\t\t<meta name=\"description\" content=\"Prefectionist - One of
+      our favorite t-shits...\"> \n\t\n\n\t<link rel=\"shortcut icon\" type=\"image/x-icon\"
+      href=\"/images/favicon.ico\">\n\t\n\t\n\t\n\t\t<link rel=\"stylesheet\" type=\"text/css\"
+      href=\"/css/styles.css?v=2011102100\" media=\"all\">\n\t\n  \t\n\t<link rel=\"stylesheet\"
+      type=\"text/css\" href=\"/css/products.css?v=20111209\" media=\"all\">\n  \t\n\n\t<script
+      type=\"text/javascript\" src=\"/js/sku_picker.js\"></script> <!-- This is here
+      because alert_oos needs access to these functions for wishlisting -->\n\t\n\t\n\t\n\t\n\t
+      \ \t<link rel=\"alternate\" type=\"application/rss+xml\" title=\"ThinkGeek RSS\"
+      href=\"http://www.thinkgeek.com/thinkgeek.rss\">\n\t\n\t<meta name=\"verify-v1\"
+      content=\"T4jR5ND0N5Xybm+r27cP1g9ziT3Ay0MB1EqJzRpaNNY=\">\n\t\n\t<meta property=\"fb:page_id\"
+      content=\"6399067073\" />\n\t\n\t\n\t\t<meta property=\"og:title\" content=\"Prefectionist\"/>\n\t\t<meta
+      property=\"og:type\" content=\"product\"/>\n\t\t<meta property=\"og:url\" content=\"http://www.thinkgeek.com/tshirts-apparel/unisex/generic/894a/?cpg=fbl_894a\"/>\n\t\t<meta
+      property=\"og:image\" content=\"http://www.thinkgeek.com/images/products/thumb/largesquare/prefectionist.jpg\"/>\n\t\t<meta
+      property=\"og:site_name\" content=\"ThinkGeek\"/>\n\t\t<meta property=\"fb:app_id\"
+      content=\"199842396712737\" />\n\t\t<meta property=\"og:description\" content=\"Here
+      at ThinkGeek, we strive to make sure each description is accurate and each image
+      is crystal clear.  We know a lot of you are perfectionists too, and so we&#145;ve
+      made this t-shirt to celebrate the true geek&#145;s passion for perfection.\"/>\n\t\n\n\n\t<script
+      language=\"JavaScript\" type=\"text/JavaScript\">\n\t<!--\n\t\tfunction showlogin()
+      {\n\t\t\tdocument.getElementById(\"loggingin\").style.display=\"inherit\";\n\t\t\tdocument.getElementById(\"loggedout\").style.display=\"none\";\n\t\t}\n\t\tfunction
+      closelogin() {\n\t\t\tdocument.getElementById(\"loggingin\").style.display=\"none\";\n\t\t}\n\t\t//-->\n\t</script>\n\t\n\t<!--[if
+      IE 6]><script type=\"text/javascript\" src=\"/js/unitpngfix.js\"></script><![endif]-->
+      \n\n\t\n\t<script type=\"text/javascript\" src=\"/js/product_page.js?v=2011111501\"><script
+      type=\"text/javascript\" src=\"js/checkout_common.js?v=2011102701\">\n\n\t<script
+      type=\"text/javascript\">\n\n  var _gaq = _gaq || [];\n  \t_gaq.push(['_setAccount',
+      'UA-32013-48']);\n\t_gaq.push(['_trackPageview']);\n\n  (function() {\n    var
+      ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async
+      = true;\n    ga.src = ('https:' == document.location.protocol ? 'https://ssl'
+      : 'http://www') + '.google-analytics.com/ga.js';\n    var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(ga, s);\n  })();\n\n</script>\n\t\n</head>\n\n\n<body>\n\n\n\n<!--
+      omni_* variables are set by templates in the call to wrapper.tt2 -->\n\n\n\n<!--
+      to avoid borking CGIs, we must use a PROCESS directive to preserve pre-cache
+      vars, so that the\n*/ conversion vars below work properly\n-->\n\n \n\t<!--
+      preserve these vars between pre and post cache handling, but not for .cgi's
+      -->\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n<!-- SiteCatalyst code version: H.22.1.\nCopyright
+      1996-2009 Adobe, Inc. All Rights Reserved\nMore info available at http://www.omniture.com
+      -->\n<script language=\"JavaScript\" type=\"text/javascript\" src=\"/js/omniture.js\"></script>\n\n\n\n\n<!--
+      \n/* The following vars should be POST cache because they are specific to a
+      single user:\n/* s.prop1/omni.search_terms and ALL CONVERSION VARIABLES\n-->\n<script
+      language=\"JavaScript\" type=\"text/javascript\"><!--\ns.pageName=\"Product
+      | Prefectionist\"\ns.server=\"\"\ns.channel=\"T-Shirts & Apparel | Unisex Shirts
+      \ | Generic Geek\"\ns.pageType=\"\"\ns.prop1=\"\"\ns.prop2=\"Product Details
+      Page\"\ns.prop3=\"Product Details Page\"\ns.prop4=\"\"\ns.prop8=\"\"\ns.prop9=\"\"\ns.prop10=\"\"\n/*
+      Conversion Variables */\ns.campaign=\"\"\ns.state=\"\"\ns.zip=\"\"\ns.events=\"prodView,event3\"\ns.products=\";894a\"\ns.eVar1=\"\"\ns.eVar3=\"\"\ns.eVar4=\"\"\ns.eVar5=\"\"\ns.eVar6=\"\"\ns.eVar12=\"\"\ns.eVar14=\"\"\ns.eVar15=\"\"\ns.eVar16=\"\"\ns.eVar17=\"Product
+      | Prefectionist\"\ns.eVar18=\"\"\ns.eVar19=\"\"\ns.eVar20=\"\"\ns.eVar21=\"\"\ns.eVar22=\"\"\ns.eVar23=\"\"\ns.eVar24=\"\"\ns.eVar25=\"\"\ns.eVar29=\"\"\ns.eVar30=\"\"\ns.eVar31=\"\"\ns.eVar32=\"\"\ns.eVar33=\"\"\ns.eVar34=\"\"\ns.eVar35=\"not
+      logged in\"\ns.eVar36=\"\"\ns.eVar43=\"\"\n/* These two need to be set after
+      eVar33 */\ns.purchaseID=s.eVar33\ns.transactionID=s.purchaseID\n\n\nif(typeof(utmx)
+      != 'undefined') { \n\ts.eVar44 = \"20111214_SearchAutocomplete: \" + utmx('combination');\n}\nelse
+      {\n\ts.eVar44 = \"20111214_SearchAutocomplete: No Test\";\n}\n\n\n/*************
+      DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/\nvar s_code=s.t();if(s_code)document.write(s_code);
+      //--></script>\n<script language=\"JavaScript\" type=\"text/javascript\"><!--\nif(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\\!-'+'-')\n//--></script><!--/DO
+      NOT REMOVE/-->\n<!-- End SiteCatalyst code version: H.22.1. -->\n\n\n\n\n\n<div
+      id=\"wrapper\">\n\n\n<div id=\"fancywrapper\">\n\n<div id=\"innerwrapper\">\n\n\t\n\t\n\n\n\t<div
+      id=\"banner\" class=\"main\" style=\"background: url(/images/sitewide/banners/banner-inventedtg.jpg)
+      center;\" >\n\t\t<a class=\"logolink\" href=\"http://www.thinkgeek.com/\" title=\"Stuff
+      for Smart Masses\"><img src=\"/images/refresh/thinkgeeklogo.gif\" alt=\"ThinkGeek\"></a>\n\t\t<a
+      class=\"bannerlink\" href=\"http://www.thinkgeek.com/interests/exclusives/?icpg=Banner_InventedAtTG\"
+      alt=\"Invented at ThinkGeek\" title=\"Invented at ThinkGeek\" ></a>\n\t\t<div
+      class=\"accountnav\">\n\t\t\t<p class=\"account\">\n\t\t\t\t\n\t\t\t\t<span
+      ><a href=\"https://www.thinkgeek.com/brain/account/index.cgi\" title=\"about
+      you\">Account</a> | </span>\n\t\t\t\t\n\t\t\t\t<a href=\"https://www.thinkgeek.com/brain/wishes.cgi\"
+      title=\"your wantings\">Wishlists</a> | <a href=\"http://www.thinkgeek.com/brain/fortune.cgi\"
+      title=\"make it so\">Fortunes</a> | <a href=\"http://www.thinkgeek.com/bug-us/\"
+      title=\"need help?\">Bug Us</a>\n\n\t\t\t\t<br>1-888-GEEKSTUFF or \n\t\t\t\n\t\t<!--
+      BEGIN LivePerson Button Code -->\n\t\t<a id=\"_lpChatBtn\" href=\"http://www.thinkgeek.com/help/chat/popup.shtml?icpg=LiveChat_Header\"
+      target=\"_blank\" onclick=\"window.open('http://www.thinkgeek.com/help/chat/popup.shtml?icpg=LiveChat_Header','newWindow','height=490,width=475,resizable');
+      return false\">Live Chat</a>\n\t\t<!-- END LivePerson Button code -->\n\n\n\t\t\t</p>\n\t\t\t\n\t\t\t<p
+      class=\"login\">\t\t\t\t\t<div id=\"loggedout\" class=\"test-20110913-link\">You're
+      not logged in. <a onclick=\"javascript:showlogin(); return false\" href=\"https://www.thinkgeek.com/brain/account/login.cgi\"
+      title=\"hai!\">Log in</a></div>\n\t\t\t\t\t<div id=\"loggingin\" style=\"display:
+      none;\"><form action=\"https://www.thinkgeek.com/brain/account/login.cgi\" method=\"post\"><input
+      type=\"hidden\" name=\"a\" value=\"auth\"><input type=\"hidden\" name=\"p\"
+      value=\"\"><input type=\"text\" class=\"mock\" name=\"un\" value=\"Email\" onblur=\"if(this.value=='')this.value='Email',
+      this.className='mock';\" onfocus=\"if(this.value=='Email')this.value='', this.className='real';\">
+      <input type=\"text\" id=\"mockpass\" class=\"mock\" value=\"Password\" onFocus=\"document.getElementById('mockpass').style.display='none';
+      document.getElementById('realpass').style.display=''; document.getElementById('realpass').focus();\">
+      <input type=\"password\" name=\"pass\" id=\"realpass\" class=\"real\" style=\"display:none;\"
+      onBlur=\"if(this.value=='') {document.getElementById('mockpass').style.display='';
+      document.getElementById('realpass').style.display='none';}\"> <input class=\"submit\"
+      alt=\"Log In\" type=\"image\" src=\"/images/refresh/signinsubmit.gif\"></form></div>\t\t\t\t\t<div
+      id=\"cart\"><img src=\"/images/refresh/cart.gif\" width=\"17\" height=\"16\"
+      alt=\"cart\">Loot: <a href=\"http://www.thinkgeek.com/brain/loot.cgi\">Your
+      cart is lonely</a></div>\t\t\t</p>\n\t\t</div>\n\t\n\t</div>\n\t\n\t<div id=\"mainwrapper-bg\"></div>\n\t\n\t<div
+      id=\"mainwrapper\">\n\n<!-- TOP NAV -->\n\t\t\t\n\t\t\t\n\t\t\t<ul id=\"topnav\">
+      \t<li class=\"topnav-1\"> \t\t<a href=\"http://www.thinkgeek.com/categories/\"
+      title=\"Stuff arranged by type\" \t\t\tclass=\"selected\">SHOP BY CATEGORY</a>
+      \t\t</li> \t<li class=\"topnav-2\"> \t\t\t\t\t<a href=\"http://www.thinkgeek.com/gifts/\"
+      title=\"Shop for Gifts\" >SHOP FOR GIFTS</a>    \t</li>  \t<li class=\"topnav-3\">
+      \ \t\t<a href=\"http://www.thinkgeek.com/whats-new/\" title=\"Stuff arranged
+      by newness\" >WHAT'S NEW</a>   \t</li>  \t<li class=\"topnav-4\">   \t\t<a href=\"http://www.thinkgeek.com/omgwtfun/\"
+      title=\"Stuff to waste time on\" >OMGWTFUN!</a>   \t</li>  \t<li class=\"topnav-5\">
+      \ \t\t<a href=\"http://www.thinkgeek.com/geekpoints/\" title=\"Stuff you can
+      earn\" >GEEK POINTS</a>   \t</li>  \t<li class=\"topnav-6\">  \t\t<a href=\"http://www.thinkgeek.com/help/\"
+      title=\"Monkeys are standing by\" >CUSTOMER SERVICE</a>   \t</li>  </ul>  \t\t\t\t\n\n\n<!--
+      END TOP NAV -->\n\n\t\t<div class=\"mainwrapper-inner\">\n\t\t\n\t\t<div class=\"mainwrapper-inner-inner\">\n\n<!--
+      LEFTNAV -->\n\t\t\t\t\n\n\n\n\n\n\t\t\t<div id=\"leftnav\">\n\t\t\t\t\n\t\t\t\t<div
+      id=\"search\">\n\t\t\t\t\t<form action=\"/brain/whereisit.cgi\" method=\"get\">\n\t\t\t\t\t\t\n\t\t\t\t\t\t<script>utmx_section(\"LeftNav\")</script>\n\t\t\t\t\t\t\t<input
+      id=\"search-term\" type=\"text\" size=\"12\" name=\"t\" value=\"find stuff\"
+      onblur=\"if(this.value=='')this.value='find stuff';\" onfocus=\"if(this.value=='find
+      stuff')this.value='';\" class=\"searchbar\">\n\t\t\t\t\t\t</noscript>\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t<input
+      class=\"submit\" type=\"image\" src=\"/images/other/search/06/search-button.png\"
+      alt=\"find\" title=\"find\">\n\t\t\t\t\t</form>\n\t\t\t</div>\n\t\t\n\t\t\n\t\t\t\t<ul
+      class=\"nav\">\n\n\t<li><a href=\"http://www.thinkgeek.com/tshirts-apparel/\"
+      class=\"selected selected-tshirts-apparel\">T-Shirts & Apparel</a></li>\n\n\t<ul
+      class=\"subnav subnav-tshirts-apparel\">\n\t\n\t<li class=\"selected\"><a href=\"http://www.thinkgeek.com/tshirts-apparel/unisex/\">Unisex
+      Shirts</a><ul class=\"subnav subnav-unisex\">\n\t<li class=\"selected\"><a href=\"http://www.thinkgeek.com/tshirts-apparel/unisex/generic/\">Generic
+      Geek</a></li>\n\t<li ><a href=\"http://www.thinkgeek.com/tshirts-apparel/unisex/popculture/\">Pop
+      Culture</a></li>\n\t<li ><a href=\"http://www.thinkgeek.com/tshirts-apparel/unisex/frustrations/\">Frustrations</a></li>\n\t<li
+      ><a href=\"http://www.thinkgeek.com/tshirts-apparel/unisex/gaming/\">Gaming</a></li>\n\t<li
+      ><a href=\"http://www.thinkgeek.com/tshirts-apparel/unisex/itdepartment/\">IT
+      Department</a></li>\n\t<li ><a href=\"http://www.thinkgeek.com/tshirts-apparel/unisex/japanese/\">Japanese
+      Shirts</a></li>\n\t<li ><a href=\"http://www.thinkgeek.com/tshirts-apparel/unisex/sciencemath/\">Science
+      &amp; Math</a></li></ul>\t</li>\n\n\t<li ><a href=\"http://www.thinkgeek.com/tshirts-apparel/womens/\">Women's
+      Shirts</a>\t</li>\n\n\t<li ><a href=\"http://www.thinkgeek.com/tshirts-apparel/interactive/\">Interactive
+      T-Shirts</a>\t</li>\n\n\t<li ><a href=\"http://www.thinkgeek.com/tshirts-apparel/glennz/\">Glennz
+      Tees</a>\t</li>\n\n\t<li ><a href=\"http://www.thinkgeek.com/tshirts-apparel/xkcd/\">xkcd
+      Tees</a>\t</li>\n\n\t<li ><a href=\"http://www.thinkgeek.com/tshirts-apparel/hoodies/\">Hoodies
+      & Fleece</a>\t</li>\n\n\t<li ><a href=\"http://www.thinkgeek.com/tshirts-apparel/jewelry/\">Tech
+      Jewelry</a>\t</li>\n\n\t<li ><a href=\"http://www.thinkgeek.com/tshirts-apparel/hats-ties/\">Hats
+      & Ties</a>\t</li>\n\n\t<li ><a href=\"http://www.thinkgeek.com/tshirts-apparel/kids/\">Kids
+      Shirts & Onesies</a>\t</li>\n\n\t<li ><a href=\"http://www.thinkgeek.com/tshirts-apparel/golfshirts/\">Golf
+      & Work Shirts</a>\t</li>\n\n\t<li ><a href=\"http://www.thinkgeek.com/tshirts-apparel/miscellaneous/\">Miscellaneous</a>\t</li>\n\t<li><a
+      href=\"http://www.thinkgeek.com/tshirts-apparel/feature/desc/0/all/sale/1?pfm=showonsale-tshirts-apparel\"
+      style=\"color:#f00000 !important;\">On Sale</a></li>\n\t<li><a href=\"http://www.thinkgeek.com/tshirts-apparel/all/\">View
+      All</a></li>\n\n\t</ul>\n\n\t<li><a href=\"http://www.thinkgeek.com/geektoys/\">Geek
+      Toys</a></li>\n\n\t<li><a href=\"http://www.thinkgeek.com/gadgets/\">Gadgets</a></li>\n\n\t<li><a
+      href=\"http://www.thinkgeek.com/homeoffice/\">Home & Office</a></li>\n\n\t<li><a
+      href=\"http://www.thinkgeek.com/computing/\">Computer Stuff</a></li>\n\n\t<li><a
+      href=\"http://www.thinkgeek.com/caffeine/\">Caffeine & Edibles</a></li>\n\n\t<li><a
+      href=\"http://www.thinkgeek.com/electronics/\">Electronics</a></li>\n\n\t<li><a
+      href=\"http://www.thinkgeek.com/geek-kids/\">Geek Kids</a></li>\n\n\t<li><a
+      href=\"http://www.thinkgeek.com/books/\">Books</a></li>\n\t\t  \t\t\t\n\t\t
+      \ \t\t\t<ul id=\"nav-price\" style=\"display:block;\">\n\t\t\t\t\t\t<li class=\"hr\"></li>\n\t\t\t\t\t\t<li><a
+      href=\"/giftsunder10/?icpg=leftnav_giftsunder10\">Gifts under $10</a></li>\t
+      \ \t\t\t\t\n\t\t\t\t\t\t<li><a href=\"/giftsunder20/?icpg=leftnav_giftsunder20\">Gifts
+      under $20</a></li>\t  \t\t\t\t\n\t\t\t\t\t\t<li><a href=\"/giftsunder50/?icpg=leftnav_giftsunder50\">Gifts
+      under $50</a></li>\n\t  \t\t\t\t\t<li class=\"hr\"></li>\n\t  \t\t\t\t\t<ul>\n\t\t\t\t\t\t\t<!--
+      somewhat temporary styles. to be removed/fixed/retested later -->\n\t\t\t\t\t\t\t<style>\n\t\t\t\t\t\t\t\tul.nav
+      li { position: relative; }  \n\t\t\t\t\t\t\t\tul.nav li img { position: absolute;
+      right: 10px; top: 2px;  }\n\t\t\t\t\t\t\t\t*:first-child+html ul.nav li img
+      { position: absolute; right: 10px; top: 20px; }\n\t\t\t\t\t\t\t</style>\n\t\t\t\t\t\t\t<li><img
+      src=\"/images/other/clearance-sale-tag-sm.png\"><a href=\"http://www.thinkgeek.com/clearance/on-sale\">Clearance</a></li>\n\t\t\t\t\t\t\t<li><a
+      href=\"http://www.thinkgeek.com/interests/exclusives/\">TG Exclusives</a></li>\n\t\t\t\t\t\t\t<li><a
+      href=\"https://www.thinkgeek.com/brain/order/certificate.cgi\">Gift Certificates</a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</ul>\n\t\t\t\t</ul>\n\t\t\t\t\n\t\t\t\t\t<!--
+      LOWERLEFTNAV -->\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t<ul class=\"signup\">\n\t\t\t\t\t\t<!--<li><strong>Geeky
+      email updates</strong></li>\n\t\t\t\t\t\t<li class=\"signupbox\"><a href=\"http://www.thinkgeek.com/newsletter.shtml\"><img
+      src=\"/images/refresh/signup-button.gif\" width=\"148\" height=\"26\" alt=\"geeky
+      email updates\"></a></li>-->\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<li><strong>Sign
+      up for geek-mail</strong></li>\n\t\t\t\t\t\t\t\t<li class=\"signupbox\">\n\t\t\t\t\t\t\t\t<form
+      action=\"http://www.thinkgeek.com/brain/newsletter/signup.cgi\" method=\"post\">\n\t\t\t\t\t\t\t\t<input
+      type=\"text\" size=\"13\" value=\"your email\" name=\"signup\" onblur=\"if(this.value=='')this.value='your
+      email';\" onfocus=\"if(this.value=='your email')this.value='';\"><input class=\"submit\"
+      type=\"image\" src=\"/images/refresh/signupsubmit.gif\" alt=\"sign up\" title=\"sign
+      up\">\n\t\t\t\t\t\t\t\t</form>\n\t\t\t\t\t\t\t</li>\t\t\t\t\n\n\t\t\t\t\t\t<li><a
+      href=\"https://www.thinkgeek.com/brain/catalog_request.cgi\">Get our catalog</a></li>\n\t\t\t\t\t\t<li><a
+      href=\"http://www.thinkgeek.com/feeds.html\">RSS feeds</a> <a href=\"http://www.thinkgeek.com/feeds.html\"><img
+      src=\"/images/refresh/rss.gif\" width=\"14\" height=\"15\" alt=\"RSS\" title=\"we're
+      in ur readar\"></a></li>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t</ul>\n\t\t\t\t\t\n\t\t\t\t\t<ul
+      class=\"actionshot\">\t\t\t\t\t\n\t\t\t\t\t\t<li><a class=\"photo\" href=\"/homeoffice/lights/7226/action/214b003/?icpg=leftnav_RandomActionShot\"
+      title=\"A bit of an eclipse? (But sans sparkly vampires.)\"><img src=\"/images/action/common/214b003.jpg\"
+      width=\"179\" height=\"115\" alt=\"A bit of an eclipse? (But sans sparkly vampires.)\"></a></li>\n\t\t\t\t\t\t<li><a
+      class=\"caption\" href=\"/homeoffice/lights/7226/action/214b003/?icpg=leftnav_RandomActionShot\">Customer
+      Action Shot</a></li>\t\t\t\t\t</ul>\n\t\n\t\t\t\t\t\t\t\t\t\t<!-- WHAT YOU LIKE
+      -->\n\t\t\t\t\t<ul class=\"whatyoulike\">\n\t\t\t\t\t\t<li><h4>Stuff You Like...</h4></li>\n\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t<a
+      href=\"/brain/whereisit.cgi?t=star+wars&dispnum=all&icpg=WhatyoulikeTag\">Star
+      Wars</a>\n\t\t\t\t\t\t\t<a href=\"/brain/whereisit.cgi?t=star+trek&dispnum=all&icpg=WhatyoulikeTag\">Star
+      Trek</a>\n\t\t\t\t\t\t\t<a href=\"/brain/whereisit.cgi?t=doctor+who&dispnum=all&icpg=WhatyoulikeTag\">Doctor&nbsp;Who</a>\n\t\t\t\t\t\t\t<a
+      href=\"/brain/whereisit.cgi?t=bacon&dispnum=all&icpg=WhatyoulikeTag\">Bacon</a>\n\t\t\t\t\t\t\t<a
+      href=\"/brain/whereisit.cgi?t=minecraft&dispnum=all&icpg=WhatyoulikeTag\">Minecraft</a>\n\t\t\t\t\t\t\t<a
+      href=\"/brain/whereisit.cgi?t=zombies&dispnum=all&icpg=WhatyoulikeTag\">Zombies</a>\n\t\t\t\t\t\t\t<a
+      href=\"/brain/whereisit.cgi?t=lego&dispnum=all&icpg=WhatyoulikeTag\">LEGO</a>\n\t\t\t\t\t\t\t<a
+      href=\"/brain/whereisit.cgi?t=iphone&dispnum=all&icpg=WhatyoulikeTag\">iPhone</a>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t\t<li
+      class=\"ilike\">\n\t\t\t\t\t\t\t<form action=\"/brain/whereisit.cgi\" method=\"get\"><input
+      type=\"text\" size=\"15\" name=\"t\" value=\"I like...\" onblur=\"if(this.value=='')this.value='I
+      like...';\" onfocus=\"if(this.value=='I like...')this.value='';\"><input type=\"hidden\"
+      name=\"icpg\" value=\"WhatyoulikeSearch\"><input type=\"submit\" alt=\"GO\"
+      value=\"GO\" title=\"Tell us what you like!\" class=\"submit\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t</form>\n\t\t\t\t\t\t</li>\n\t\t\t\t\t</ul>\n\n\n\t\t\t\t\t<!--
+      LEFT PROMOS -->\n\t\t\t\t\t<a href=\"http://www.thinkgeek.com/clearance/on-sale/?icpg=leftnav_onsale\"><img
+      class=\"promo\" src=\"/images/refresh/leftpromo-onsale.png\" alt=\"See all the
+      Stuff On Sale\" title=\"See all the Stuff On Sale\"></a>\n\t\t\t\n\t\t\t\n\t\t\t\t\t<!--
+      END LOWERLEFTNAV -->\n\t\t\t\t\n\t\t\t</div>\n\t\t\t\n\t\t\t<!-- TO SEE FLAT
+      HTML SAMPLE  -->\n\t\n<!-- END LEFTNAV -->\n\n\t\t\t<div id=\"content\">\t\n\t\t\t\t\t\t\n<!--
+      BANNERS AN' THANGS -->\n\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\n\n\n\n\t\t\t\t\n\t\t\t\t\n\n\t\t\t\t\n<!--
+      BEGIN OF CONTENT PROPER -->\n\n\t\t\t\t\n\t\t\t\n\n\n\n\t\t\t<div id=\"header\">\n\t\t\t\t<p
+      class=\"breadcrumb\">\n\n\n\t\n\t\t<a href=\"/\">Home</a>&nbsp;&nbsp;>&nbsp;
+      \n\t\n\n\t\n\t\t<a href=\"/tshirts-apparel/\">T-Shirts & Apparel</a>&nbsp;&nbsp;>&nbsp;
+      \n\t\n\n\t\n\t\t<a href=\"/tshirts-apparel/unisex/\">Unisex Shirts </a>&nbsp;&nbsp;>&nbsp;
+      \n\t\n\n\t\n\t\t<a href=\"/tshirts-apparel/unisex/generic/\">Generic Geek</a>&nbsp;&nbsp;>&nbsp;
+      \n\t\n\n\t\n\t\t&nbsp;\n\t\n\n</p>\n\t\t\t\t<h2 class=\"tshirts-apparel\"><a
+      href=\"/tshirts-apparel/unisex/generic/894a/\">Prefectionist</a></h2>\n\t\t\t</div>\n\t\t\t\t\t
+      \         \n\t\t\t\n     \t\t\n     \t\t<div class=\"clear\"></div>\n     \t\t\n
+      \    \t\t\n<!--[if gte IE 7]>\n\t<style type=\"text/css\">\n\t\t#buybox select\t\t\t\t{width:auto;}\n\t</style>\n<![endif]-->\n<!--[if
+      lte IE 6]>\n\t<style type=\"text/css\">\n\t\t#buybox select\t\t\t\t{position:absolute;
+      width:auto;}\n\t\t#buybox p.quantity-box1\t\t{margin-top:38px;}\n\t\t#buybox
+      p.quantity-box2\t\t{margin-top:8px;}\n\t</style>\n<![endif]-->\n\n\t\n\n\t<img
+      src=\"/images/refresh/wishlistbutton.gif\" style=\"display:none;\" alt=\"\"
+      />\n\t<img src=\"/images/product_page/buynow_orange.gif\" style=\"display:none;\"
+      alt=\"\" />\n\n\t\t\t<div id=\"productimage\">\n\t\t\t\t\n\n<!-- omni_* variables
+      are set by templates in the call to wrapper.tt2 -->\n\n\n\n<!-- BEGIN CustomLink
+      Omniture JS -->\n<script type=\"text/javascript\">\n\t//wrapper function that
+      uses setTimeout in order to create a sep thread so processing the rest of the
+      page isnt interrupted\n\tfunction omniture_tag(obj,item_type,img_file)\n\t{\n\t\t\n\t\tsetTimeout(\"contact_omniture(true,'\"
+      + item_type + \"','\" + img_file + \"')\",0);\n\t}\n\t\n\t\n\t\n\t//main tagging
+      function\n\tfunction contact_omniture(obj,item_type,img_file)\n\t{\n\t\tif (item_type
+      == \"addtl_thumb\")\n\t\t{\n\t\t\ttag_addtl_thumb(obj,img_file);\t\n\t\t}\n\t\telse
+      if (item_type == \"main_thumb\")\n\t\t{\n\t\t\ttag_main_thumb(obj,img_file);\n\t\t}\n\t\telse
+      if (item_type == \"main_zoom\")\n\t\t{\n\t\t\ttag_main_zoom(obj,img_file);\t\n\t\t}\n\t\telse
+      if (item_type == \"addtl_zoom\")\n\t\t{\n\t\t\ttag_addtl_zoom(obj,img_file);\t\n\t\t}\n\t\telse
+      if (item_type == \"close_zoom\")\n\t\t{\n\t\t\ttag_close_zoom(obj,img_file);\n\t\t}\n\t\telse
+      if (item_type == \"gallery_addtl\")\n\t\t{\n\t\t\ttag_gallery_to_addtl(obj,img_file);\n\t\t}\n\t\telse
+      if (item_type == \"gallery_main\")\n\t\t{\n\t\t\ttag_gallery_to_main(obj,img_file);\n\t\t}\n\t\telse
+      if (item_type == \"slider_nav\")\n\t\t{\n\t\t\t//in this case, the second param
+      is actually the navigation direction\n\t\t\ttag_slider_nav(obj,img_file);\n\t\t}\n\t}\n\t\n\t\n\n\t//common
+      vars set for carousel/zoom gallery\n\tfunction common_tags(s)\n\t{\n\t\t//s.linkTrackVars='prop2,prop3,prop4,prop10,eVar21,eVar22,eVar23,eVar24,eVar25,events,products';
+      \ \n\t\ts.linkTrackEvents='event12,event13,event14';  \n\t\ts.eVar21=s.eVar25='+1';
+      \ \n\t\ts.products=';894a' \n\t\treturn s;\n\t}\n\n\t//for selection of main
+      thumbnail from carousel\t\n\tfunction tag_main_thumb(obj,img_file)\n\t{\n\t\tvar
+      s=s_gi('thinkgeek');\n\t\ts=common_tags(s);\n\t\ts.linkTrackVars='prop2,prop3,prop4,prop10,eVar21,eVar22,eVar25,events,products';
+      \ \n\t\ts.prop2=s.prop3=s.prop4=s.prop10='Carousel Select Main';\n\t\ts.eVar22=s.prop10
+      + ' | Prefectionist | 894a | ' + img_file;  \n\t\ts.events='event12';  \n\t\ts.tl(obj,'o',s.eVar22);\n\t}\n\t\n\t//for
+      selection of additional image thumbnails from carousel\n\tfunction tag_addtl_thumb(obj,img_file)\n\t{\n\t\tvar
+      s=s_gi('thinkgeek'); \n\t\ts=common_tags(s);\n\t\ts.linkTrackVars='prop2,prop3,prop4,prop10,eVar21,eVar22,eVar25,events,products';
+      \ \n\t\ts.prop2=s.prop3=s.prop4=s.prop10='Carousel Select Additional';  \n\t\ts.eVar22=s.prop10
+      + ' | Prefectionist | 894a | ' + img_file;\n\t\ts.events='event12';  \n\t\ts.tl(obj,'o',s.eVar22);\n\t}\n\n\t\n\t//for
+      FBox zooming of main image\t\n\tfunction tag_main_zoom(obj,img_file)\n\t{\n\t\tvar
+      s=s_gi('thinkgeek');\n\t\ts=common_tags(s);\n\t\ts.linkTrackVars='prop2,prop3,prop4,prop10,eVar21,eVar23,eVar25,events,products';
+      \ \n\t\ts.prop2=s.prop3=s.prop4=s.prop10='Carousel Zoom Main';  \n\t\ts.eVar23=s.prop10
+      + ' | Prefectionist | 894a | ' + img_file;  \n\t\ts.events='event13';  \n\t\ts.tl(obj,'o',s.eVar23);\n\t}\n\t\n\t//for
+      FBox zooming of addtl large image\t\n\tfunction tag_addtl_zoom(obj,img_file)\n\t{\n\t\tvar
+      s=s_gi('thinkgeek');\n\t\ts=common_tags(s);\n\t\ts.linkTrackVars='prop2,prop3,prop4,prop10,eVar21,eVar23,eVar25,events,products';
+      \ \n\t\ts.prop2=s.prop3=s.prop4=s.prop10='Carousel Zoom Additional';  \n\t\ts.eVar23=s.prop10
+      + ' | Prefectionist | 894a | ' + img_file;  \n\t\ts.events='event13';  \n\t\ts.tl(obj,'o',s.eVar23);\n\t}\n\n\n\t//for
+      FBox closing zoomed image\n\tfunction tag_close_zoom(obj,img_file)\n\t{\n\t\tvar
+      s=s_gi('thinkgeek');\n\t\ts=common_tags(s);\n\t\ts.linkTrackVars='prop2,prop3,prop4,prop10,eVar24,events,products';
+      \ \n\t\n\t\ts.prop2=s.prop3=s.prop4=s.prop10='Gallery Navigate Close';  \n\t\ts.eVar24=s.prop10
+      + ' | Prefectionist | 894a | ' + img_file;\n\t\t\n\t\ts.events='event14';  \n\t\ts.tl(obj,'o',s.eVar24);\n\t}\n\t\n\t//for
+      FBox Gallery navigation TO an additional image FROM a main/addtl gallery image\n\tfunction
+      tag_gallery_to_addtl(obj,img_file)\n\t{\n\t\tvar s=s_gi('thinkgeek');\n\t\ts=common_tags(s);\n\t\ts.linkTrackVars='prop2,prop3,prop4,prop10,eVar21,eVar24,eVar25,events,products';
+      \ \n\t\ts.prop2=s.prop3=s.prop4=s.prop10='Gallery Navigate Additional';  \n\t\ts.eVar24=s.prop10
+      + ' | Prefectionist | 894a | ' + img_file;  \n\t\ts.events='event14';  \n\t\ts.tl(obj,'o',s.eVar24);\n\t\n\t}\n\t\n\t//for
+      FBox Gallery navigation TO main image FROM an addtl gallery image\n\tfunction
+      tag_gallery_to_main(obj,img_file)\n\t{\n\t\tvar s=s_gi('thinkgeek');\n\t\ts=common_tags(s);\n\t\ts.linkTrackVars='prop2,prop3,prop4,prop10,eVar21,eVar24,eVar25,events,products';
+      \ \n\t\ts.prop2=s.prop3=s.prop4=s.prop10='Gallery Navigate Main';  \n\t\ts.eVar24=s.prop10
+      + ' | Prefectionist | 894a | ' + img_file;  \n\t\ts.events='event14';  \n\t\ts.tl(obj,'o',s.eVar24);\n\t\n\t}\n\t\n\t\n\t//for
+      jCarousel next/prev slider navigation\n\tfunction tag_slider_nav(obj,direction)\n\t{\n\t\tvar
+      s=s_gi('thinkgeek');\n\t\ts=common_tags(s);\n\t\ts.linkTrackVars='prop2,prop3,prop4,prop10,eVar22,events,products';
+      \ \n\t\ts.prop2=s.prop3=s.prop4=s.prop10='Carousel Navigate Thumbnail';  \n\t\ts.eVar22=s.prop10
+      + ' | Prefectionist | 894a | ' + direction;  \n\t\ts.events='event12';  \n\t\ts.tl(obj,'o',s.eVar22);\n\t\n\t\n\t}\n\t\n\n\t//for
+      debugging\n\tfunction listProps(obj)\n\t{\n\t\tvar names = \"\";\n\t\tfor(var
+      i in obj) names += i + \" = \" + obj[i] + \"<BR>\\n\";\n\t\tdocument.write(\"Properties:<BR>\"
+      + names);\n\t}\n\t\n\t\n</script>\n<!-- END CustomLink Omniture JS -->\n\n\n\n<!--
+      BEGIN CAROUSEL -->\n\n<script type=\"text/javascript\" src=\"/js/jquery/jquery.fancybox.pack.js\"></script>\n<script
+      type=\"text/javascript\" src=\"/js/jquery/jquery.jcarousel.min.js\"></script>\n<script
+      type=\"text/javascript\" src=\"/js/product_images.js?v=2011052600\"></script>\n<script
+      type=\"text/javascript\">\n\t\n</script>\n<link type=\"text/css\" rel=\"stylesheet\"
+      href=\"/css/fancybox.css?v=20100709\" media=\"screen\" />\n<link rel=\"stylesheet\"
+      type=\"text/css\" href=\"/css/product_images_slider.css?v=2011052600\" />\n\n<!--[if
+      IE]>\n<style type=\"text/css\">\n.carousel_caption_wrap{top:381px;}\n</style>\n
+      <![endif]-->\n\n<div class=\"prod_gallery\">\n\t<div id=\"image\">\n\t\t<!--
+      begin: main image -->\n\t\t<a id=\"carousel_front\" href=\"/images/products/zoom/prefectionist.jpg\"
+      title=\"\" rel=\"group1\">\n\t\t\t<img src=\"/images/products/frontsquare/prefectionist.jpg\"
+      alt=\"\" border=\"0\"\n\t\t\t\tstyle=\"display: block;\" />\n\t\t\n\t\t\n\t\t\t<div
+      class=\"caption\"><p rel=\"/images/products/frontsquare/prefectionist.jpg\"\n\t\t\t\tstyle=\"display:
+      block;\">\n\t\t\t\t<em style=\"color:#676767;\">Click to zoom</em>\n\t\t\t</p></div>\n\n\t\t\n</a>\n\t\t<!--
+      end: main image -->\n\n\t\t\n\t\t\n\t\t<!-- begin: additional images -->\n\t\t\n\t\t\n\t\t\n\t\t<!--
+      end: additional images -->\n\n\n\t<div id=\"caption_main\" class=\"carousel_caption_wrap\"
+      style=\"visibility: hidden;\">\n\t\t<div class=\"carousel_caption\"></div>\n\t</div>\n\n\n\n\n\n\t</div>\n\t\n\t<ul
+      id=\"image_slider\" class=\"jcarousel-skin-tango\">\n\t\t<li>\n\t\t<!-- begin:
+      thumbnail for the main image -->\n\t\t<a id=\"a_main\" href=\"/tshirts-apparel/unisex/generic/894a/zoom\"
+      rel=\"/images/products/frontsquare/prefectionist.jpg\" class=\"image\" title=\"Prefectionist
+      Main Image\" onclick=\"omniture_tag(true,'main_thumb','')\">\n\t\t\t<img src=\"/images/products/thumb/carousel/front/prefectionist.jpg\"
+      class=\"thumb thumb_selected\" alt=\"Prefectionist Main Image\" border=\"0\"/>\n\t\t</a>\n\t\t<!--
+      end: thumbnail for the main image -->\n\t\t</li>\n\n\t\t\n\t\t\n\t\t<!-- begin:
+      additional images -->\n\t\t\n\t\t<!-- end: additional images -->\n\t\t\n\t\t\n\t</ul>\n</div>\n\n<!--
+      END CAROUSEL -->\n\n\t\t\t</div>\n\t\t\t\n\t\t\t<div style=\"float:right; width:148px;\">\n\t\t\t\n\t\t\t\t<!--
+      Geek Points -->\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t<div class=\"rightbox_corner\"></div>\n\t\t\t\t<div
+      class=\"rightbox\">\n\t\t\t\t\t<p class=\"geek-point-notice\">Buy this and earn<br
+      />\n\t\t\t\t\t<a href=\"http://www.thinkgeek.com/geekpoints/\"><strong>300</strong><b
+      style=\"vertical-align:middle; font-weight:bold; display:inline; color:#43891c;
+      margin-left:3px; font-size:11px;\">Geek Points</b><span><img src=\"/images/other/tooltip_top.png\"
+      /><strong>Geek Points</strong> is a program to reward you, our incredibly cool
+      customers, for shopping with us! The more you shop, the more points you can
+      earn towards some pretty nifty rewards.</span></a></p>\n\t\t\t\t</div>\n\t\t\t\t\n\n\n\t\t\t\t<!--
+      Share This Links -->\n\t\t\t\t\n\t\t\t\t<div class=\"rightbox_corner\"></div>\n\t\t\t\t<div
+      class=\"rightbox\">\n\t\t\t\t\t<div class=\"rightbox_top\">Share the AWESOME:</div>\n\t\t\t\t\t<div
+      class=\"sharethis\">\n\t\t\t\t\t\t<span class=\"st_email_large\" displayText=\"Email\"
+      title=\"Share via Email\"></span>\n\t\t\t\t\t\t<span class=\"st_twitter_large\"
+      displayText=\"Tweet\" title=\"Share via Twitter\"></span>\n\t\t\t\t\t\t<span
+      class=\"st_facebook_large\" displayText=\"Facebook\" title=\"Share via Facebook\"></span>\n\t\t\t\t\t\t<span
+      class=\"st_sharethis_large\" displayText=\"ShareThis\" title=\"Share via ShareThis\"></span>\n\t\t\t\t\t</div>\n\t\t\t\t\t<script
+      type=\"text/javascript\" src=\"http://w.sharethis.com/button/buttons.js\"></script>\n\t\t\t\t\t<script
+      type=\"text/javascript\">\n\t\t\t\t\t\tstLight.options({\n\t\t\t\t\t\t\tpublisher:'6bd4e80e-61fa-4a58-b64c-557837a62b9b',\n\t\t\t\t\t\t\ttracking:'google',\n\t\t\t\t\t\t\tonhover:
+      false\n\t\t\t\t\t\t});\n\t\t\t\t\t</script>\n\t\t\t\t\t</script>\n\t\t\t\t</div>\n\n\t\t\t\t\n\t\t\t\t<!--
+      Customer Action Shots -->\n\t\t\t\t\n\t\t\t\t<div class=\"rightbox_corner\"></div>\n\t\t\t\t<div
+      class=\"rightbox\">\n\t\t\t\t\t<div class=\"rightbox_top\">Customer Action Shots:</div>\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t<a
+      href=\"/tshirts-apparel/unisex/generic/894a/action/213e80c/\"><img src=\"/images/action/medium/213e80c.jpg\"
+      alt=\"Hurrrrr... I are englissh majer!\" style=\"margin:8px auto; display:block;\"/></a>\n\t\t\t\t\t\t<hr
+      style=\"margin:4px 0px;\" />\n\t\t\t\t\t\t<a href=\"/tshirts-apparel/unisex/generic/894a/action/213e80c/\"
+      style=\"font-size:11px; text-align:center; padding:0px 0px 6px 0px; display:block;\">see
+      more action</a>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t\t<!-- Customer
+      Action Shots -->\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t<!-- Also Bought Upsells
+      -->\n\t\t\t\t\n\t\t\t\t\n\n\n\n\n\n\t\t\n\t<div class=\"rightbox_corner\"></div>\n\t\t<div
+      class=\"rightbox\">\n\t\t<div class=\"rightbox_top\">Your Fellow Smart Masses
+      Also Bought:</div>\n\t\t<ul>\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t<li><p><a
+      href=\"/8bad/\" \n\t\t\t\t\tonClick=\"var s=s_gi(s_account); s.linkTrackVars='eVar3';
+      s.eVar3='Product - Also Bought'; s.tl(true,'o','Product - Also Bought Link');\"\n\t\t\t\t\t>I
+      Never Finish Anyth</a></p>\n\t\t\t\t\t<a href=\"/8bad/\"\n\t\t\t\t\tonClick=\"var
+      s=s_gi(s_account); s.linkTrackVars='eVar3'; s.eVar3='Product - Also Bought';
+      s.tl(true,'o','Product - Also Bought Image');\"\n\t\t\t\t\t><img src=\"/images/products/thumb/medium/never-finish.jpg\"
+      alt=\"I Never Finish Anyth\" /></a>\n\t\t\t\t\t</li><hr />\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t<li><p><a
+      href=\"/78c6/\" \n\t\t\t\t\tonClick=\"var s=s_gi(s_account); s.linkTrackVars='eVar3';
+      s.eVar3='Product - Also Bought'; s.tl(true,'o','Product - Also Bought Link');\"\n\t\t\t\t\t>I
+      see dead pixels.</a></p>\n\t\t\t\t\t<a href=\"/78c6/\"\n\t\t\t\t\tonClick=\"var
+      s=s_gi(s_account); s.linkTrackVars='eVar3'; s.eVar3='Product - Also Bought';
+      s.tl(true,'o','Product - Also Bought Image');\"\n\t\t\t\t\t><img src=\"/images/products/thumb/medium/dead_pixels.jpg\"
+      alt=\"I see dead pixels.\" /></a>\n\t\t\t\t\t</li><hr />\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t<li><p><a
+      href=\"/887e/\" \n\t\t\t\t\tonClick=\"var s=s_gi(s_account); s.linkTrackVars='eVar3';
+      s.eVar3='Product - Also Bought'; s.tl(true,'o','Product - Also Bought Link');\"\n\t\t\t\t\t>ROFLcopter</a></p>\n\t\t\t\t\t<a
+      href=\"/887e/\"\n\t\t\t\t\tonClick=\"var s=s_gi(s_account); s.linkTrackVars='eVar3';
+      s.eVar3='Product - Also Bought'; s.tl(true,'o','Product - Also Bought Image');\"\n\t\t\t\t\t><img
+      src=\"/images/products/thumb/medium/roflcopter.jpg\" alt=\"ROFLcopter\" /></a>\n\t\t\t\t\t</li><hr
+      />\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t<li><p><a href=\"/8ba2/\" \n\t\t\t\t\tonClick=\"var
+      s=s_gi(s_account); s.linkTrackVars='eVar3'; s.eVar3='Product - Also Bought';
+      s.tl(true,'o','Product - Also Bought Link');\"\n\t\t\t\t\t>LMAO</a></p>\n\t\t\t\t\t<a
+      href=\"/8ba2/\"\n\t\t\t\t\tonClick=\"var s=s_gi(s_account); s.linkTrackVars='eVar3';
+      s.eVar3='Product - Also Bought'; s.tl(true,'o','Product - Also Bought Image');\"\n\t\t\t\t\t><img
+      src=\"/images/products/thumb/medium/lmao-new.jpg\" alt=\"LMAO\" /></a>\n\t\t\t\t\t</li><hr
+      />\n\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t<li><p><a href=\"/e856/\" \n\t\t\t\t\tonClick=\"var
+      s=s_gi(s_account); s.linkTrackVars='eVar3'; s.eVar3='Product - Also Bought';
+      s.tl(true,'o','Product - Also Bought Link');\"\n\t\t\t\t\t>Your Ideas Are Intriguing
+      To Me</a></p>\n\t\t\t\t\t<a href=\"/e856/\"\n\t\t\t\t\tonClick=\"var s=s_gi(s_account);
+      s.linkTrackVars='eVar3'; s.eVar3='Product - Also Bought'; s.tl(true,'o','Product
+      - Also Bought Image');\"\n\t\t\t\t\t><img src=\"/images/products/thumb/medium/e856_intriguing.jpg\"
+      alt=\"Your Ideas Are Intriguing To Me\" /></a>\n\t\t\t\t\t</li>\n\t\t\t\n\t\t</ul>\n\t</div>\n\t\t\n\n\n\n\t\t\t</div>\n\t\t\t\n\t\t\t\n\t\t\t\t<div
+      id=\"top_brief\">\n\t\t\t\t\t<h4 class=\"prodheader\">One Fine T-Shrit</h4>\n\t\t\t\t\t<p>Here
+      at ThinkGeek, we strive to make sure each description is accurate and each image
+      is crystal clear.  We know a lot of you are perfectionists too, and so we've
+      made this t-shirt to celebrate the true geek's passion for perfection.</p>\n\t\t\t\t\t<img
+      src=\"/images/product_page/read_more.gif\" alt=\"Read More\" /><a href=\"#tabs\"
+      onClick=\"\n\t\t\t\t\t\t\tvar s=s_gi('thinkgeek');\n\t\t\t\t\t\t\ts.linkTrackVars='prop2,prop3,prop4,prop10,eVar26,events,products';\n\t\t\t\t\t\t\ts.linkTrackEvents='event16';\n\t\t\t\t\t\t\ts.prop2='Product
+      | Read More';\n\t\t\t\t\t\t\ts.prop3='Product | Read More';\n\t\t\t\t\t\t\ts.prop4='Product
+      | Read More';\n\t\t\t\t\t\t\ts.prop10='Product | Read More';\n\t\t\t\t\t\t\ts.eVar26='Product
+      | Prefectionist | 894a | Read More';\n\t\t\t\t\t\t\ts.events='event16';\n\t\t\t\t\t\t\ts.products=';894a'\n\t\t\t\t\t\t\ts.tl(true,'o','Product
+      | Prefectionist | 894a | Read More');\n\t\t\t\t\t\t\t\">Read more...</a>\n\t\t\t\t\t<hr
+      />\n\t\t\t\t</div>\n\t\t\t\n\t\t\t\n\t\t\t<div class=\"actions\" id=\"product-actions\">\n\t\t\t\n\t\t\t\t<form
+      id=\"buy\" action=\"/brain/loot.cgi\" method=\"get\">\n\t\t\t\t\t\n\t\t\t\t\t<input
+      type=\"hidden\" name=\"a\" value=\"a\">\n\t\t\t\t\t<input type=\"hidden\" name=\"pid\"
+      value=\"894a\">\n\n\t\t\t\t\t\n\t\t\t\t\t\t<h3>$16.99 - $18.99</h3>\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\n\t\n\t\t\n\t<p
+      class=\"availability\">\n\t\t<span class=\"in_stock\">\n\t\t\t<img src=\"/images/other/checkmark.png\"
+      /> In stock\n\t\t</span>, except:\n\t</p>\n\n\t\t\n\n\t\n\t\t\n\t\t\t\n\n\t<div
+      class=\"checkout-table-text\"> \n\t\n\t\t\n\t\t\t<img src=\"/images/other/checkmark_x.png\"
+      />\n\t\t\tNavy, M\n\t\t \n\t\n\t\t<div style=\"display: inline; white-space:
+      nowrap; \">\n\t\t\t( Est. 1/31 )\n\t\t</div>\n\t\t\n\t</div>\n\n\n\t\t\n\t\n\n\n\t\n\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t\t\t\n
+      \                                       \t\t\t\t\t\n                                        \n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<p
+      class=\"emailme\"><a href=\"http://www.thinkgeek.com/brain/email_bis.cgi?id=894a\"
+      target=\"_blank\" onclick=\"window.open('http://www.thinkgeek.com/brain/email_bis.cgi?id=894a','newWindow','height=500,width=350,top=200,left=300,scrollbars=1');
+      return false\"><img src=\"/images/other/emailme.png\" />Email me when available</a></p>\n\t\t\t\t\t\t\n\t\t\t\t\t\n\n\t\t\t\t\t\n\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\n\t\t\t\t\t\t\n\n<div
+      style=\"display:none;\">\n\t<div id=\"skutocart\">\n\t\t<h2>Hey wait! You have
+      choices!</h2>\n\t\t<p>Please pick an item so we can magically put it in your
+      cart.</p>\n\t\t<p class=\"skuchooser\"><select id=\"skucarter\" name=\"skuchooser\">\n\t\t\t\t<option
+      value=\"-\">Please select...</option>\n\t\t\t\n\t\t\t\t<option value=\"0894ANVYSS\">Navy,
+      S $16.99</option>\n\t\t\t\n\t\t\t\t<option value=\"0894ANVYLL\">Navy, L $16.99</option>\n\t\t\t\n\t\t\t\t<option
+      value=\"0894ANVYXL\">Navy, XL $16.99</option>\n\t\t\t\n\t\t\t\t<option value=\"0894ANVY2X\">Navy,
+      XXL $17.99</option>\n\t\t\t\n\t\t\t\t<option value=\"0894ANVY3X\">Navy, XXXL
+      $18.99</option>\n\t\t\t\n\t\t\t</select>\n\t\t\t<input class=\"okay\" type=\"image\"
+      src=\"/images/product_page/buynow_orange.gif\" alt=\"Buy Now\" width=\"128\"
+      height=\"37\" onclick=\"skusetter('cart'); return false\">\n\t\t</p>\n\t</div>\n</div>\n\n<div
+      id=\"code_container_skupicker\" style=\"display:none;\">\n\t<div id=\"skutowish\">\n\t\t<h2>Hey
+      wait! You have choices!</h2>\n\t\t<p>Please pick an item so we can magically
+      put it in your wishlist.</p>\n\t\t<p class=\"skuchooser\">\n\t\t\t<select id=\"skuwisher\"
+      name=\"skuchooser\">\n\t\t\t\t<option value=\"-\">Please select...</option>\n\t\t\t\n\t\t\t\t<option
+      value=\"0894ANVYSS\">Navy, S $16.99</option>\n\t\t\t\n\t\t\t\t<option value=\"0894ANVYLL\">Navy,
+      L $16.99</option>\n\t\t\t\n\t\t\t\t<option value=\"0894ANVYXL\">Navy, XL $16.99</option>\n\t\t\t\n\t\t\t\t<option
+      value=\"0894ANVY2X\">Navy, XXL $17.99</option>\n\t\t\t\n\t\t\t\t<option value=\"0894ANVY3X\">Navy,
+      XXXL $18.99</option>\n\t\t\t\n\t\t\t</select>\n\t\t\t<input class=\"okay\" type=\"image\"
+      src=\"/images/refresh/wishlistbutton.gif\" alt=\"Add to Wish List\" width=\"134\"
+      height=\"26\" onclick=\"process_skupicker(is_new_wishlist); return false;\">\n\t\t</p>\n\t</div>\n</div>\n\n\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t<p><select
+      id=\"sku\" name=\"sku\">\n\t\t\t\t\t\t\t<option value=\"-\">Please select...</option>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<option
+      value=\"0894ANVYSS\">Navy, S $16.99</option>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<option
+      value=\"0894ANVYLL\">Navy, L $16.99</option>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<option
+      value=\"0894ANVYXL\">Navy, XL $16.99</option>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<option
+      value=\"0894ANVY2X\">Navy, XXL $17.99</option>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t<option
+      value=\"0894ANVY3X\">Navy, XXXL $18.99</option>\n\t\t\t\t\t\t\n\t\t\t\t\t\t</select></p>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t
+      \n\t\t\t\t\t\t\t<input type=\"hidden\" name=\"sku_description_0894ANVYSS\" id=\"sku_description_0894ANVYSS\"
+      value=\"Prefectionist - Navy, S\">\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t \n\t\t\t\t\t\t\t<input
+      type=\"hidden\" name=\"sku_description_0894ANVYLL\" id=\"sku_description_0894ANVYLL\"
+      value=\"Prefectionist - Navy, L\">\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t \n\t\t\t\t\t\t\t<input
+      type=\"hidden\" name=\"sku_description_0894ANVYXL\" id=\"sku_description_0894ANVYXL\"
+      value=\"Prefectionist - Navy, XL\">\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t \n\t\t\t\t\t\t\t<input
+      type=\"hidden\" name=\"sku_description_0894ANVY2X\" id=\"sku_description_0894ANVY2X\"
+      value=\"Prefectionist - Navy, XXL\">\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t \n\t\t\t\t\t\t\t<input
+      type=\"hidden\" name=\"sku_description_0894ANVY3X\" id=\"sku_description_0894ANVY3X\"
+      value=\"Prefectionist - Navy, XXXL\">\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t<p
+      class=\"quantity-box1\"><strong>Quantity:</strong> <input type=\"text\" name=\"qty\"
+      id=\"quantity\" value=\"1\" size=\"3\" maxlength=\"3\"></p>\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t<div
+      class=\"addextra\"></div>\n\n\t\t\t\t\t\t<p class=\"buy_button extra-sku-ui\">\n\t\t\t\t\t\t\t<input
+      id=\"submitcart\" type=\"image\" name=\"cart\" class=\"button\" src=\"/images/product_page/buynow_orange.gif\"
+      alt=\"Buy now\" width=\"134\" height=\"37\" onclick=\"return skupicker('cart')\"
+      />\n\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t<span class=\"fluff extra-sku-ui\">or</span>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<div
+      id=\"add-to-wish-list\" class=\"action unauthenticated action-email-me\">\n\t\t\t\t\t\t\t\t\t<a
+      href=\"https://www.thinkgeek.com/brain/account/login.cgi?p=/tshirts-apparel/unisex/generic/894a/\"
+      class=\"button\" id=\"wish-list-add\">Add to Wish List</a>\n\t\t\t\t\t\t\t\t\t<span
+      class=\"note\" style=\"display:none\">D'oh! You need to have an account to use
+      wish lists. <strong><a href=\"https://www.thinkgeek.com/brain/account/login.cgi?p=/tshirts-apparel/unisex/generic/894a/\">Log
+      in or create one now</a></strong></span>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\n\t\t\n\t\t\t\t\t\t\t<!--
+      wishlist status message -->\n\t\t\t\t\t\t\t<div class=\"status\">\n\t\t\t\t\t\t\t</div>\n\n\t\t\t\t\t\t\t<div
+      class=\"modal\">\n\t\t\t\t\t\t\t\t<div class=\"window\" id=\"window-wish-list-new\">\n\t\t\t\t\t\t\t\t\t<form
+      action=\"\" method=\"\" id=\"wish-list-new\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t<h2>Sweet!
+      We just added this to a new wish list for you!</h2>\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t<input
+      type=\"hidden\" name=\"wish-list-new-id\" id=\"wish-list-new-id\" value=\"\">\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t<p>You
+      can tell us a bit more about this wish list if you want below. <strong>If not,
+      we'll fill in some details for you until you're ready</strong>.</p>\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t\t\t<li
+      class=\"text\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t<label for=\"wish-list-new-name\">Your
+      Wish List's Name</label>\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"text\" name=\"wish-list-new-name\"
+      value=\"\" id=\"wish-list-new-name\" placeholder=\"Your Wish List's Name &hellip;\">\n\t\t\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t\t<li
+      class=\"text\">\n\t\t\t\t\t\t\t\t\t\t\t\t<label for=\"wish-list-new-descrip\">A
+      Brief Description of Your Wish List</label>\n\t\t\t\t\t\t\t\t\t\t\t\t<textarea
+      name=\"wish-list-new-descrip\" id=\"wish-list-new-descrip\" placeholder=\"A
+      brief description of your wish list &hellip;\"></textarea>\n\t\t\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t<li
+      class=\"check its-checked\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"checkbox\"
+      checked=\"checked\" name=\"wish-list-make-public\" class=\"checkbox\" value=\"\"
+      id=\"wish-list-make-public\">\n\t\t\t\t\t\t\t\t\t\t\t\t<label for=\"wish-list-make-public\">Make
+      this wish list public so friends and family can find it</label>\t\n\t\t\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t\t<li
+      class=\"check\">\n\t\t\t\t\t\t\t\t\t\t\t\t<input type=\"checkbox\" name=\"wish-list-make-default\"
+      value=\"\" class=\"checkbox\"  id=\"wish-list-make-default\">\n\t\t\t\t\t\t\t\t\t\t\t\t<label
+      for=\"wish-list-make-default\">Make this wish list my default wish list</label>\n\t\t\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t<ul
+      class=\"actions\">\n\t\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t\t\t\t<button
+      type=\"submit\" class=\"action-primary\" id=\"wish-list-new-submit\">Save This
+      New Wish List</button>\n\t\t\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t\t\t\t<li>\n\t\t\t\t\t\t\t\t\t\t\t\t<a
+      href=\"\" id=\"wish-list-new-cancel\" class=\"action-secondary\">I'm good, I'll
+      do this later</a>\n\t\t\t\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t\t</form>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\n\t\t\t\t\t\n\t\t\t\t</form>
+      <!-- #END form #buy -->\n\n\t\t\t\t<!-- Facebook Like Section -->\t\t\t\t\n\n\t\t\t\t<div
+      style=\"border:none; margin-top:12px;\" id=\"facebook_like\">\n\t\t\t\t\t<fb:like
+      href=\"http://www.thinkgeek.com/tshirts-apparel/unisex/generic/894a/\" layout=\"standard\"
+      show-faces=\"true\" width=\"308\" action=\"like\" colorscheme=\"light\"></fb:like>\n\t\t\t\t</div>\n\n\t\t\t</div>
+      <!-- #END product-actions -->\n\n\t\t\t<!-- Right Side Container -->\n\n\t\t\t\n\n\n\t\t\t<!--
+      MAIN PRODUCT PAGE -->\n\t\t\t\n\t\t\t<ul id=\"tabs\">\n\t\t\t\t\n\t\t\t\t\t<li><a
+      href=\"/tshirts-apparel/unisex/generic/894a/\" class=\"selected\">\t\t\t\t\t\t\tMain
+      Description\t\t\t\t\t</a></li>\n\t\t\t\t\n\t\t\t\t\t<li><a href=\"/tshirts-apparel/unisex/generic/894a/sizing/\"
+      >\t\t\t\t\t\t\tSizing Info\t\t\t\t\t</a></li>\n\t\t\t\t\n\t\t\t\t\t<li><a href=\"/tshirts-apparel/unisex/generic/894a/action/\"
+      >\t\t\t\t\t\t\tCustomer Action Shots\t\t\t\t\t</a></li>\n\t\t\t\t\n     \t\t</ul>\n
+      \    \t\t\n\t\t\t<div id=\"contentblob\">\n\t\t\t\t\n\t\t\t\t<!-- Main description
+      -->\n\t\t\t\t\t\n\t\t\t\t\t<div id=\"proddescription\">\n\t\t\t\t\t\t<h4 class=\"prodheader\">One
+      Fine T-Shrit</h4>\n\t\t\t\t\t\t<p>Most of our t-shirts we offer to you, our
+      customers, are funny.\nWhy? Well, it's all part of the philosophy of ThinkGeek.
+      We believe\nthat humor is a special part of the human experience. Like fine\nart,
+      humor helps us reflect upon ourselves and the human condition\nin a very unique
+      and sometimes oblique way. And for humor to be\ngood, it really has to be simple,
+      honest, and perfect. Each word\nhas to be carefully chosen. Good humor is a
+      very intellectual\nprocess.</p>\n<p>At ThinkGeek, we apply this same humor methodology
+      to our\nbusiness model. We want to be honest with you folks and also to be\nperfect
+      for you. For our products, we strive to make sure each\ndescription is accurate
+      and each image is crystal clear. We know a\nlot of you are perfectionists too,
+      and so we've made this t-shirt\nto celebrate the true geek's passion for perfection.
+      Look at it; so\nsimple but so true. \"p-r-e-f-e-c-t-i-o-n-i-s-t\" <em>Wait,\n<strong>PRE</strong>fectionist&hellip;.it's
+      supposed to be\n<strong>PER</strong>fectionist. <strong>OH CARP!</strong></em></p>\n<p>100%
+      cotton heavyweight navy blue t-shirt with 'Prefectionist'\nwritten on it front
+      in center in a tranquil lime green.</p>\n\n\n\t\t\t\t\t</div>\n\t\t\t\t\t\n\t\t\t\t\t<div
+      id=\"bullets\">\n\t\t\t\t<!-- Bulleted portion of the description, if needed
+      -->\n\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\t
+      \ \n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t<div id=\"facebook-comments\" style=\"clear:both;\">\n\t\t\t\t\t\t<h3
+      class=\"prodheader\" style=\"margin-top:80px;\">Wanna chat about Prefectionist?</h4>\n\t\t\t\t\t\t<hr
+      />\n\t\t\t\t\t\t<meta property=\"fb:app_id\" content=\"114555751346\">\n\t\t\t\t\t\t<fb:comments
+      href=\"http://www.thinkgeek.com/tshirts-apparel/unisex/generic/894a/\" num_posts=\"3\"
+      width=\"642\" colorscheme=\"light\" xid=\"Prefectionist_comments\" canpost=\"true\"
+      candelete=\"false\"></fb:comments>\n\t\t\t\t\t</div>\n\t\t\t\t\t\n\t\t\t\t\t<div
+      class=\"page-actions actions\">\n\t\t\t\t\t\t<ul class=\"nav\">\n\t\t\t\t\t\t\t<li
+      class=\"nav-01\">\n\t\t\t\t\t\t\t\t<a class=\"button control scroll-top\" href=\"#mainwrapper\"
+      onclick=\"var s=s_gi('thinkgeek'); s.tl(true,'o','product_Prefectionist_BackToTop');\">Back
+      to Product Details!</a>\n\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</div>\n\t\t\t</div>
+      <!-- #END #contentblob -->\n\t\t\t\n\t\t\t<!-- END OF MAIN PRODUCT PAGE -->\n\t\t\t\n\t<!--
+      make certain TT2 variables available as JS variables -->\n\t<script  type=\"text/javascript\">\n\t\tvar
+      show_sku_menu = true;\n\t\tvar default_wishlist_id = '';\n\t\tvar luckymonkey
+      = '';\n\t\tvar item_id = '894a';\n\t\tvar product_name = 'Prefectionist';\n\t</script>\n\n
+      \    \t\t\n\t\t\t<div id=\"upsells\">\n\t\t\t\t<img class=\"header\" src=\"/images/refresh/upsells-staffsuggests.gif\"
+      width=\"400\" height=\"30\" alt=\"Timmy and the ThinkGeek Staff thinks you'll
+      like:\"  />\n\t\t\t\t<ul>\n\t\t\t\t\t\n\t\t\t\t\t\t<li><a href=\"/geektoys/japanfan/982f/\"\n\t\t\t\t\t\tonClick=\"var
+      s=s_gi(s_account); s.linkTrackVars='eVar3'; s.eVar3='Product - Crossell'; s.tl(true,'o','Product
+      - Crossell Image');\"\n\t\t\t\t\t\t><img src=\"/images/products/thumb/medium/bubblewrap_keychain.jpg\"
+      alt=\"Electronic Bubble Wrap Keychain\" /></a>\n\t\t\t\t\t\t<p><a href=\"/geektoys/japanfan/982f/\"\n\t\t\t\t\t\tonClick=\"var
+      s=s_gi(s_account); s.linkTrackVars='eVar3'; s.eVar3='Product - Crossell'; s.tl(true,'o','Product
+      - Crossell Link');\"\n\t\t\t\t\t\t>Electronic Bubble Wrap Keychain</a></p></li>\n\t\t\t\t\t\n\t\t\t\t\t\t<li><a
+      href=\"/gadgets/tools/99a5/\"\n\t\t\t\t\t\tonClick=\"var s=s_gi(s_account);
+      s.linkTrackVars='eVar3'; s.eVar3='Product - Crossell'; s.tl(true,'o','Product
+      - Crossell Image');\"\n\t\t\t\t\t\t><img src=\"/images/products/thumb/medium/moleskin_notebooks.jpg\"
+      alt=\"Moleskine Mini Notebooks (3 pack)\" /></a>\n\t\t\t\t\t\t<p><a href=\"/gadgets/tools/99a5/\"\n\t\t\t\t\t\tonClick=\"var
+      s=s_gi(s_account); s.linkTrackVars='eVar3'; s.eVar3='Product - Crossell'; s.tl(true,'o','Product
+      - Crossell Link');\"\n\t\t\t\t\t\t>Moleskine Mini Notebooks (3 pack)</a></p></li>\n\t\t\t\t\t\n\t\t\t\t\t\t<li><a
+      href=\"/homeoffice/supplies/61b7/\"\n\t\t\t\t\t\tonClick=\"var s=s_gi(s_account);
+      s.linkTrackVars='eVar3'; s.eVar3='Product - Crossell'; s.tl(true,'o','Product
+      - Crossell Image');\"\n\t\t\t\t\t\t><img src=\"/images/products/thumb/medium/61b7_swingline_stapler.jpg\"
+      alt=\"The Red Swingline Stapler\" /></a>\n\t\t\t\t\t\t<p><a href=\"/homeoffice/supplies/61b7/\"\n\t\t\t\t\t\tonClick=\"var
+      s=s_gi(s_account); s.linkTrackVars='eVar3'; s.eVar3='Product - Crossell'; s.tl(true,'o','Product
+      - Crossell Link');\"\n\t\t\t\t\t\t>The Red Swingline Stapler</a></p></li>\n\t\t\t\t\t\n\t\t\t\t\t\t<li><a
+      href=\"/tshirts-apparel/unisex/generic/8876/\"\n\t\t\t\t\t\tonClick=\"var s=s_gi(s_account);
+      s.linkTrackVars='eVar3'; s.eVar3='Product - Crossell'; s.tl(true,'o','Product
+      - Crossell Image');\"\n\t\t\t\t\t\t><img src=\"/images/products/thumb/medium/im_with_genius.jpg\"
+      alt=\"I'm with Genius\" /></a>\n\t\t\t\t\t\t<p><a href=\"/tshirts-apparel/unisex/generic/8876/\"\n\t\t\t\t\t\tonClick=\"var
+      s=s_gi(s_account); s.linkTrackVars='eVar3'; s.eVar3='Product - Crossell'; s.tl(true,'o','Product
+      - Crossell Link');\"\n\t\t\t\t\t\t>I'm with Genius</a></p></li>\n\t\t\t\t\t\n\t\t\t\t\t<li><a
+      href=\"https://www.thinkgeek.com/brain/order/certificate.cgi\"\n\t\t\t\t\tonClick=\"var
+      s=s_gi(s_account); s.linkTrackVars='eVar3'; s.eVar3='Product - Crossell'; s.tl(true,'o','Product
+      - Crossell Image');\"\n\t\t\t\t\t><img src=\"/images/related-gift-certificates.gif\"
+      alt=\"Gift Certificates\" width=\"34\" height=\"32\" /></a>\n\t\t\t\t\t<p><a
+      href=\"https://www.thinkgeek.com/brain/order/certificate.cgi\"\n\t\t\t\t\tonClick=\"var
+      s=s_gi(s_account); s.linkTrackVars='eVar3'; s.eVar3='Product - Crossell'; s.tl(true,'o','Product
+      - Crossell Link');\"\n\t\t\t\t\t>Gift Certificates</a><p></li>\n\t\t\t\t</ul>\n\t\t\t\t<div
+      class=\"clear\"></div>\n\t\t\t</div>\n\t\t\t\n\t\t\t<div class=\"clear\"></div>\n\t\t\t\n\n\t\t\n\t\t\t\t\n\t\t\t</div>\n\t\t\t\n<!--
+      END OF CONTENT BLOB -->\n\n\t\t\t<div class=\"clear\"></div>\n\n\t\t</div>\n\n\t\t\t<div
+      class=\"clear\"></div>\n\t\t\t\n\t\t</div>\n\t\t\t\n\t</div>\n\t\n\n\t<div id=\"footer\">\n\t\n\t\n\n\t<img
+      class=\"timmy\" src=\"/images/sitewide/other/timmy.png\" />\n\n\t\t\n\t\t<div
+      id=\"innerfooter\">\n\t\n\t\t<ul>\n\t\t\t<li class=\"header\"><a href=\"http://www.thinkgeek.com/categories/\">PRODUCTS</a></li>\n\t\t\t<li><a
+      href=\"http://www.thinkgeek.com/tshirts-apparel/\">T-Shirts & Apparel</a></li>\n\t\t\t<li><a
+      href=\"http://www.thinkgeek.com/geektoys/\">Geek Toys</a></li>\n\t\t\t<li><a
+      href=\"http://www.thinkgeek.com/gadgets/\">Gadgets</a></li>\n\t\t\t<li><a href=\"http://www.thinkgeek.com/homeoffice/\">Home
+      & Office</a></li>\n\t\t\t<li><a href=\"http://www.thinkgeek.com/computing/\">Computer
+      Stuff</a></li>\n\t\t\t<li><a href=\"http://www.thinkgeek.com/caffeine/\">Caffeine
+      & Candy</a></li>\n\t\t\t<li><a href=\"http://www.thinkgeek.com/electronics/\">Electronics</a></li>\n\t\t\t<li><a
+      href=\"http://www.thinkgeek.com/geek-kids/\">Geek Kids</a></li>\n\t\t\t<li><a
+      href=\"http://www.thinkgeek.com/books/\">Books</a></li>\n\t\t\t<li><a href=\"http://www.thinkgeek.com/clearance/\">Clearance</a></li>\n\t\t\t<li><a
+      href=\"http://www.thinkgeek.com/interests/exclusives/\">TG Exclusives</a></li>\n\t\t\t<li><a
+      href=\"http://www.thinkgeek.com/brain/order/certificate.cgi\">Gift Certificates</a></li>\n\t\t</ul>\t\n\t\t\n\t\t<ul>\n\t\t\t<li
+      class=\"header\"><a href=\"http://www.thinkgeek.com/interests/\">GIFTS & INTERESTS</a></li>\n\t\t\t<li><a
+      href=\"http://www.thinkgeek.com/interests/giftsunder10/\">Gifts Under $10</a></li>\n\t\t\t<li><a
+      href=\"http://www.thinkgeek.com/interests/giftsunder20/\">Gifts Under $20</a></li>\n\t\t\t<li><a
+      href=\"http://www.thinkgeek.com/interests/giftsunder50/\">Gifts Under $50</a></li>\n\t\t\t<li><a
+      href=\"http://www.thinkgeek.com/interests/dads/\">Dads</a> &amp; <a href=\"/interests/moms\">Moms</a></li>\n\t\t\t<li><a
+      href=\"http://www.thinkgeek.com/interests/zombies/\">Zombies</a></li>\n\t\t\t<li><a
+      href=\"http://www.thinkgeek.com/interests/giftsforhim/\">Gifts for Him</a></li>\n\t\t\t<li><a
+      href=\"http://www.thinkgeek.com/interests/giftsforher/\">Gifts for Her</a></li>\n\t\t\t<li><a
+      href=\"http://www.thinkgeek.com/interests/techies/\">Techies</a></li>\n\t\t\t<li><a
+      href=\"http://www.thinkgeek.com/interests/retro/\">Retro</a></li>\n\t\t\t<li><a
+      href=\"http://www.thinkgeek.com/interests/gamer/\">Gamers</a></li>\n\t\t\t<li><a
+      href=\"http://www.thinkgeek.com/interests/\">See All</a></li>\n\t\t</ul>\n\t\t\n\t\t<ul>\n\t\t\t<li
+      class=\"header\"><a href=\"http://www.thinkgeek.com/about-us/\">ABOUT THINKGEEK</a></li>\n\t\t\t<li><a
+      href=\"http://www.thinkgeek.com/about-us/\">About Us</a></li>\n\t\t\t<li><a
+      href=\"http://www.thinkgeek.com/bug-us/\">Contact Us</a></li>\n\t\t\t<li><a
+      href=\"http://www.thinkgeek.com/jobs/\">Jobs &#64; TG</a></li>\n\t\t\t<li><a
+      href=\"http://www.thinkgeek.com/blog/\">Our Blog</a></li>\n\t\t\t<li><a href=\"http://www.twitter.com/thinkgeek\">Twitter</a></li>\n\t\t\t<li><a
+      href=\"http://www.facebook.com/thinkgeek\">Facebook</a></li>\n\t\t\t<li><a href=\"http://www.youtube.com/thinkgeek\">YouTube</a></li>\n\t\t\t<li><a
+      href=\"http://www.thinkgeek.com/cams/\">Webcams</a></li>\n\t\t\t<li><a href=\"http://www.thinkgeek.com/volume/\">Volume
+      Purchases</a></li>\n\t\t\t<li><a href=\"http://www.thinkgeek.com/affiliates/\">Affiliates</a></li>\n\t\t\t<li><a
+      href=\"http://www.thinkgeek.com/help/news-press.shtml\">Press Inquiries</a></li>\n\t\t\t<li><a
+      href=\"http://www.thinkgeek.com/privacy.shtml\">Privacy Policy</a></li>\n\t\t\t<li><a
+      href=\"http://www.thinkgeek.com/site-index/\">Sitemap</a></li>\n\t\t\t<li><a
+      href=\"http://www.thinkgeek.com/coupons/?icpg=ft_coupons\">Latest Deals</a></li>\n\t\t</ul>\t\t\n\t\t\n\t\t<ul>\n\t\t\t<li
+      class=\"header\"><a href=\"https://www.thinkgeek.com/brain/account/index.cgi\">ABOUT
+      YOU</a></li>\n\t\t\t<li><a href=\"https://www.thinkgeek.com/brain/account/index.cgi\">Account</a></li>\n\t\t\t<li><a
+      href=\"https://www.thinkgeek.com/brain/account/history.cgi\">Order Management</a></li>\n\t\t\t<li><a
+      href=\"https://www.thinkgeek.com/brain/account/points.cgi\">Your Geek Points</a></li>\n\t\t\t<li><a
+      href=\"https://www.thinkgeek.com/brain/account/passwd.cgi\">Forgot Password</a></li>\n\t\t\t<li><a
+      href=\"https://www.thinkgeek.com/brain/account/wishes.cgi\">Wish Lists</a></li>\n\t\t\t<li><a
+      href=\"http://www.thinkgeek.com/rma/\">Return Requests</a></li>\n\t\t\t<li><a
+      href=\"https://www.thinkgeek.com/brain/account/places.cgi\">Address Book</a></li>\n\t\t\t<li><a
+      href=\"http://www.thinkgeek.com/action-shots/\">Submit Action Shot</a></li>\n\t\t\t<li><a
+      href=\"http://www.thinkgeek.com/brain/customer_bounty.cgi\">Submit T-Shirt Idea</a></li>\n\t\t</ul>\n\t\t\n\t\t<ul>\n\t\t\t<li
+      class=\"header\"><a href=\"http://www.thinkgeek.com/help/\">CUSTOMER SERVICE</a></li>\n\t\t\t<li><a
+      href=\"http://www.thinkgeek.com/bug-us/\">Contact Us</a></li>\n\t\t\t<li><a
+      href=\"http://www.thinkgeek.com/help/returns.shtml\">Returns &amp; Exchanges</a></li>\n\t\t\t<li><a
+      href=\"http://www.thinkgeek.com/help/shipping.shtml\">Shipping</a></li>\n\t\t\t<li><a
+      href=\"http://www.thinkgeek.com/help/accounts.shtml\">Accounts</a></li>\n\t\t\t<li><a
+      href=\"http://www.thinkgeek.com/help/ordering.shtml\">Ordering</a></li>\n\t\t\t<li><a
+      href=\"http://www.thinkgeek.com/help/product-info.shtml\">Product Information</a></li>\n\t\t\t<li><a
+      href=\"http://www.thinkgeek.com/help/sizing-info.shtml\">Size Charts</a></li>\n\t\t\t<li><a
+      href=\"http://www.thinkgeek.com/help/gifts.shtml\">Gift Options</a></li>\n\t\t\t<li><a
+      href=\"http://www.thinkgeek.com/geekpoints/\">Geek Points</a></li>\n\t\t\t<li><a
+      href=\"http://www.thinkgeek.com/newsletter.shtml\">Newsletter</a> &amp; <a href=\"https://www.thinkgeek.com/brain/catalog_request.cgi\">Catalog</a></li>\n\t\t\t<li><a
+      href=\"http://www.thinkgeek.com/help/privacy.shtml\">Privacy &amp; Security</a></li>\n\t\t</ul>\t\n\t\t\n\t\t<ul
+      class=\"social\">\n\t\t\t<li class=\"header\">We Has a Fun</li>\n\t\t\t<li>Take
+      our <a href=\"http://www.thinkgeek.com/brain/feedback.cgi\">46.4 second survey</a>
+      or check our <a href=\"http://www.thinkgeek.com/brain/fortune.cgi\">Fortunes
+      File</a></li>\t\t\t\t\n\t\t\t\t<li class=\"footer-feed\"><a href=\"http://www.twitter.com/thinkgeek\"><span
+      class=\"header\">ThinkGeek Tweets:</span></a><br>Ready to get your nostalgia
+      on? 80s film alphabet by @<a href=\"http://twitter.com/StephenWildish\">StephenWildish</a>:
+      <a href=\"http://t.co/Pb1aITMh\">http://t.co/Pb1aITMh</a> B G I L P Q &amp;
+      S ftw.</li>\t\t\t\t\n\t\t\t\t<li><a href=\"/action-shots/\"><span class=\"header\">Random
+      Customer Action Shot:</span></a><br><a href=\"/geek-kids/1-3-years/d4be/action/2162b01/\"
+      title=\"action shot\"><img src=\"/images/action/common/2162b01.jpg\" alt=\"Happy
+      meal\" class=\"footer-img\"></a></li>\n\t\t</ul>\n\t\t\n\t\t<p class=\"disclaimer\">\n\t\t&copy;
+      <a href=\"http://www.thinkgeek.com/help/legal.shtml\">Copyright 1999-2011</a>
+      - <a href=\"http://www.thinkgeek.com/\">ThinkGeek, Inc.</a> All Rights Reserved.<br
+      />\n\t\t<strong>ThinkGeek is a <a href=\"http://www.geek.net/\"><img src=\"/images/other/geeknet_logo.png\"
+      alt=\"Geeknet logo\" style=\"vertical-align:middle; padding:0px 3px;\" /></a>
+      Company</strong></p>\t\t\n\t\t\n\t\t<div class=\"footer-badges\">\n\t\n\t\t<!--
+      BIZRATE-->\n\t\t<a href=\"http://www.bizrate.com/ratings_guide/cust_reviews__mid--134956.html\"
+      target=\"http://www.bizrate.com\">\n\t\t<img src=\"https://medals.bizrate.com/medals/dynamic/134956_medal.gif\"
+      alt=\"BizRate Customer Certified (GOLD) Site\" width=\"125\" height=\"73\" target=\"_blank\"></a>\n\t\t\n\t\t<!--
+      BEGIN: Bizate Circle of Excellence Medal -->\n\t\t<a href=\"http://www.bizrate.com/boutique/2010circleofexcellence.html\"
+      target=\"_blank\">\n\t\t<img src=\"https://medals.bizrate.com/awards/vertical/134956_coe.gif\"
+      alt=\"Bizrate Circle of Excellence Site - ThinkGeek.com Reviews at Bizrate\"
+      width=\"60\" height=\"85\" align=\"top\" border=\"0\" style=\"border:1px solid
+      #0e497a; background-color:#fff; padding:4px 5px 0;\" ></a>\n\t\t<!-- END: Bizrate
+      Circle of Excellence Medal -->\n\n\t\t</div>\n\t\t\n\t\t<div class=\"clear\"></div>\t\t\n\t\n\t\t\n\t\t</div>\n\t\t\n\t\t</div>\n\t\t\n\t\t\n\t\t\n\n</div>\n</div>\n</div>\n\n\n\n<!--
+      BEGIN RKG Attribution Management Tracking Tag -->\n<script type=\"text/javascript\">\nfunction
+      rkg_track_sid(mid){\nif(!(document.referrer&&document.referrer.match('://([^/]+)')[1].toLowerCase().match(document.domain.match('[^.]*\\.[^.]*$')[0].toLowerCase()))){\nvar
+      href=\"http://mct.rkdms.com/sid.gif?mid=\"+mid+\"&ref=\"+encodeURIComponent(document.referrer);\nvar
+      src=window.location.href.match(/rkg_src=.*(&|$)/);\nif(src&&src[0]){\nvar s=src[0].replace('rkg_src=','');\nhref+=\"&src=\"+s;}\ndocument.write('<img
+      class=\"rkg\" height=\"1\" width=\"1\" src=\"'+href+'\"/>');}}\ntry{rkg_track_sid(\"thinkgeek\");}catch(e){}\n</script>\n<!--
+      END RKG Attribution Management Tracking Tag -->\n\n\n<!-- Brought to you by
+      the letter Z and the number 00101010! And by http8... -->\n\n\n\n\t\n    \n
+      \   \n    \n        \n    \n        \n            \n        \n    \n        \n
+      \   \n        \n    \n        \n    \n        \n    \n\n    \n\n\n\n\n\n\n\n<div
+      id=\"fb-root\"></div>\n<script>\n window.fbAsyncInit = function() {\n   FB.init({appId:
+      '199842396712737', status: true, cookie: true, oauth: true,\n            xfbml:
+      true, channelUrl  : 'http://www.thinkgeek.com/fb/channel.html'});\n    FB.Event.subscribe('edge.create',
+      function(response) {\n    \tvar s=s_gi('thinkgeek'); \n\t\ts.linkTrackVars='prop2,prop3,prop4,prop10,eVar47,events,products';
+      \n\t\ts.linkTrackEvents='event43'; \n\t\ts.prop2='facebook Like'; \n\t\ts.prop3='facebook
+      Like'; \n\t\ts.prop4='facebook Like'; \n\t\ts.prop10='facebook Like'; \n\t\ts.eVar47='facebook
+      Like | Prefectionist | 894a'; \n\t\ts.events='event43';\n\t\ts.products=';894a'
+      \n\t\ts.tl(true,'o','facebook Like | Prefectionist | 894a'); \n\t});\n\tFB.Event.subscribe('edge.remove',
+      function(response) {\n\t\tvar s=s_gi('thinkgeek'); \n\t\ts.linkTrackVars='prop2,prop3,prop4,prop10,eVar47,events,products';
+      \n\t\ts.linkTrackEvents='event44'; \n\t\ts.prop2='facebook UNlike'; \n\t\ts.prop3='facebook
+      UNlike'; \n\t\ts.prop4='facebook UNlike'; \n\t\ts.prop10='facebook UNlike';
+      \n\t\ts.eVar47='facebook UNlike | Prefectionist | 894a'; \n\t\ts.events='event44';
+      \n\t\ts.products=';894a'\n\t\ts.tl(true,'o','facebook UNlike | Prefectionist
+      | 894a');\n\t});\n };\n (function() {\n   var e = document.createElement('script');\n
+      \  e.type = 'text/javascript';\n   e.src = document.location.protocol +\n     '//connect.facebook.net/en_US/all.js';\n
+      \  e.async = true;\n   document.getElementById('fb-root').appendChild(e);\n
+      }());\n</script>\n\n   \n</body>\n</html>\n\t\n\n\n\n"
+    http_version: '1.1'

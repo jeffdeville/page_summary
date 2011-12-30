@@ -3,6 +3,7 @@ require 'em-websocket'
 require 'em-synchrony'
 require 'em-synchrony/em-http'
 require 'mechanize'
+
 require 'json'
 require "mini_magick"
 
@@ -48,11 +49,8 @@ class GetSummary
     if width * height > 15000
       {:url => image_url, :width => width, :height => height}
     end
-
   end
-
 end
-
 
 EM.synchrony do
   puts "Server started on 0.0.0.0:8080 (drag index.html to your browser)"
