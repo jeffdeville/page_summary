@@ -13,10 +13,10 @@
       server:
       - Apache/2.2.21 (Unix) mod_apreq2-20090110/2.7.1 mod_perl/2.0.4 Perl/v5.8.8
       set-cookie:
-      - spunkymonkey=88ef4144776d26e093ab2618; path=/; domain=.thinkgeek.com; expires=Thu,
-        03-Jan-2013 22:06:08 GMT
+      - spunkymonkey=5d067219e9e7b8465b4b2ab0; path=/; domain=.thinkgeek.com; expires=Thu,
+        03-Jan-2013 22:06:09 GMT
       - swingingmonkey=9499DC0CCA3F55171A8CD1F73CD36538; path=/; domain=.thinkgeek.com;
-        expires=Thu, 03-Jan-2013 22:06:09 GMT
+        expires=Thu, 03-Jan-2013 22:06:10 GMT
       pragma:
       - no-cache
       cache-control:
@@ -24,15 +24,15 @@
       x-geek-pagefetch:
       - 'Yes'
       expires:
-      - Wed, 04 Jan 2012 22:06:09 GMT
+      - Wed, 04 Jan 2012 22:06:10 GMT
       content-type:
       - text/html
       content-length:
-      - '62798'
+      - '62817'
       date:
-      - Wed, 04 Jan 2012 22:06:09 GMT
+      - Wed, 04 Jan 2012 22:06:10 GMT
       x-varnish:
-      - '686304009'
+      - '387230243'
       age:
       - '0'
       vary:
@@ -191,12 +191,12 @@
       //--></script>\n<script language=\"JavaScript\" type=\"text/javascript\"><!--\nif(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\\!-'+'-')\n//--></script><!--/DO
       NOT REMOVE/-->\n<!-- End SiteCatalyst code version: H.22.1. -->\n\n\n\n\n\n<div
       id=\"wrapper\">\n\n\n<div id=\"fancywrapper\">\n\n<div id=\"innerwrapper\">\n\n\t\n\t\n\n\n\t<div
-      id=\"banner\" class=\"main\" style=\"background: url(/images/sitewide/banners/banner-clearance-1201.jpg)
+      id=\"banner\" class=\"main\" style=\"background: url(/images/sitewide/banners/banner-spystuff.jpg)
       center;\" >\n\t\t<a class=\"logolink\" href=\"http://www.thinkgeek.com/\" title=\"Stuff
       for Smart Masses\"><img src=\"/images/refresh/thinkgeeklogo.gif\" alt=\"ThinkGeek\"></a>\n\t\t<a
-      class=\"bannerlink\" href=\"http://www.thinkgeek.com/clearance/on-sale/?icpg=Banner_2012_clearance\"
-      alt=\"A sale?  As you wish...\" title=\"A sale?  As you wish...\" ></a>\n\t\t<div
-      class=\"accountnav\">\n\t\t\t<p class=\"account\">\n\t\t\t\t\n\t\t\t\t<span
+      class=\"bannerlink\" href=\"http://www.thinkgeek.com/gadgets/security/?icpg=Banner_SpyStuff\"
+      alt=\"From ThinkGeek With Love - Spy Stuff!\" title=\"From ThinkGeek With Love
+      - Spy Stuff!\" ></a>\n\t\t<div class=\"accountnav\">\n\t\t\t<p class=\"account\">\n\t\t\t\t\n\t\t\t\t<span
       ><a href=\"https://www.thinkgeek.com/brain/account/index.cgi\" title=\"about
       you\">Account</a> | </span>\n\t\t\t\t\n\t\t\t\t<a href=\"https://www.thinkgeek.com/brain/wishes.cgi\"
       title=\"your wantings\">Wishlists</a> | <a href=\"http://www.thinkgeek.com/brain/fortune.cgi\"
@@ -433,13 +433,13 @@
       false\n\t\t\t\t\t\t});\n\t\t\t\t\t</script>\n\t\t\t\t\t</script>\n\t\t\t\t</div>\n\n\t\t\t\t\n\t\t\t\t<!--
       Customer Action Shots -->\n\t\t\t\t\n\t\t\t\t<div class=\"rightbox_corner\"></div>\n\t\t\t\t<div
       class=\"rightbox\">\n\t\t\t\t\t<div class=\"rightbox_top\">Customer Action Shots:</div>\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t<a
-      href=\"/tshirts-apparel/unisex/generic/894a/action/21416cf/\"><img src=\"/images/action/medium/21416cf.jpg\"
-      alt=\"Abby's new hairstylist is a little green\" style=\"margin:8px auto; display:block;\"/></a>\n\t\t\t\t\t\t<hr
-      style=\"margin:4px 0px;\" />\n\t\t\t\t\t\t<a href=\"/tshirts-apparel/unisex/generic/894a/action/21416cf/\"
-      style=\"font-size:11px; text-align:center; padding:0px 0px 6px 0px; display:block;\">see
-      more action</a>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t\t<!-- Customer
-      Action Shots -->\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t<!-- Also Bought Upsells
-      -->\n\t\t\t\t\n\t\t\t\t\n\n\n\n\n\n\t\t\n\t<div class=\"rightbox_corner\"></div>\n\t\t<div
+      href=\"/tshirts-apparel/unisex/generic/894a/action/211c051/\"><img src=\"/images/action/medium/211c051.jpg\"
+      alt=\"Put the phone down, they can't help you now\" style=\"margin:8px auto;
+      display:block;\"/></a>\n\t\t\t\t\t\t<hr style=\"margin:4px 0px;\" />\n\t\t\t\t\t\t<a
+      href=\"/tshirts-apparel/unisex/generic/894a/action/211c051/\" style=\"font-size:11px;
+      text-align:center; padding:0px 0px 6px 0px; display:block;\">see more action</a>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t\t<!--
+      Customer Action Shots -->\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t<!-- Also Bought
+      Upsells -->\n\t\t\t\t\n\t\t\t\t\n\n\n\n\n\n\t\t\n\t<div class=\"rightbox_corner\"></div>\n\t\t<div
       class=\"rightbox\">\n\t\t<div class=\"rightbox_top\">Your Fellow Smart Masses
       Also Bought:</div>\n\t\t<ul>\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\t<li><p><a
       href=\"/8bad/\" \n\t\t\t\t\tonClick=\"var s=s_gi(s_account); s.linkTrackVars='eVar3';
@@ -736,7 +736,7 @@
       src=window.location.href.match(/rkg_src=.*(&|$)/);\nif(src&&src[0]){\nvar s=src[0].replace('rkg_src=','');\nhref+=\"&src=\"+s;}\ndocument.write('<img
       class=\"rkg\" height=\"1\" width=\"1\" src=\"'+href+'\"/>');}}\ntry{rkg_track_sid(\"thinkgeek\");}catch(e){}\n</script>\n<!--
       END RKG Attribution Management Tracking Tag -->\n\n\n<!-- Brought to you by
-      the letter Z and the number 00101010! And by http8... -->\n\n\n\n\t\n    \n
+      the letter Z and the number 00101010! And by http18... -->\n\n\n\n\t\n    \n
       \   \n    \n        \n    \n        \n            \n        \n    \n        \n
       \   \n        \n    \n        \n    \n        \n    \n\n    \n\n\n\n\n\n\n\n<div
       id=\"fb-root\"></div>\n<script>\n window.fbAsyncInit = function() {\n   FB.init({appId:

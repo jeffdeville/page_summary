@@ -60,9 +60,16 @@ EM.synchrony do
     websocket.onmessage do |msg|
       puts "received msg: #{msg}"
       Fiber.new do
-        get_summary = GetSummary.new
+        get_summary = GetSummary.new()
         # load the msg's url. don't parse the html yet, I don't think
         #
+
+        # pageSummary = PageSummary.new(url)
+        # page_content = pageSummary.parse(url)
+        # websocket.send({title: page_content.title, summary: page_content.summary})
+        # page_summary.potential_images.each do |img|
+        #   websocket.send({url: img.url, width: width, height: height})
+        # end
         page_response = get_summary.load_page(msg)
         if page_response
           page = get_summary.map_to_mechanize(page_response)

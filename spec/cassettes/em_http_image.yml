@@ -23,9 +23,9 @@
       cache-control:
       - max-age = 3600
       date:
-      - Wed, 04 Jan 2012 04:14:06 GMT
+      - Wed, 04 Jan 2012 22:06:09 GMT
       x-varnish:
-      - '1709404412'
+      - '193297845'
       age:
       - '0'
     body: !binary |-
