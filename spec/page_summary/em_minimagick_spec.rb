@@ -23,9 +23,9 @@ describe EmMiniMagick do
     end
   end
 
-  context "when finding image urls " do
-    let(:url) {"http://www.thinkgeek.com/images/products/frontsquare/prefectionist.jpg" }
-    
-    it ""
-  end
+  #context "when finding image urls " do
+  #  let(:url) {"http://www.thinkgeek.com/images/products/frontsquare/prefectionist.jpg" }
+  #
+  #  xit ""
+  #end
 end

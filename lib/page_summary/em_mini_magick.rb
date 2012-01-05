@@ -5,15 +5,7 @@ require 'ap'
 
 class EmMiniMagick
   def self.load_image(url)
-    file = EM::HttpRequest.new(url).get 
-    img = case file.response
-      when String
-        p "string"
-        ::MiniMagick::Image.from_blob file.response
-      else
-        p "stream: #{file.response.class}"
-        ::MiniMagick::Image.read file.response
-    end
-    img
+    file = EM::HttpRequest.new(url).get
+    ::MiniMagick::Image.read file.response if file.response_header.status == 200
   end
 end

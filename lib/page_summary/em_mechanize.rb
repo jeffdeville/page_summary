@@ -4,8 +4,8 @@ require 'em-synchrony/em-http'
 
 class EmMechanize
   def self.load_url(url)
-    response = EM::HttpRequest.new(url).get()
-    response.callback { p "callback fired"; EventMachine.stop } if defined? VCR
+    response = EM::HttpRequest.new(url).get
+    #response.callback { EventMachine.stop } if defined? VCR
     if response.response_header.status == 200 
       mech = Mechanize.new
 
