@@ -1,4 +1,3 @@
-require 'rubygems'
 require 'em-websocket'
 require 'em-synchrony'
 require 'em-synchrony/em-http'

@@ -18,20 +18,24 @@ class Summarizer
   end
 
   def potential_images
-    mech_page.images.collect(&:url).
-            find_all { |img| not_throw_away_image?(img) }.
-            uniq.
-            each do |image_url|
-      result = product_image? image_url
-      yield result if result
+    urls = mech_page.images.collect(&:url).
+            find_all { |img| not_throw_away_image?(img) }.uniq
+
+    EM::Synchrony::Iterator.new(urls, 4).map do |url, iter|
+      http_image = EM::HttpRequest.new(url).aget
+      http_image.callback do
+        result = product_image?(url, http_image)
+        yield result if result
+        iter.return
+      end
     end
   end
 
 
   private
-  def product_image?(image_url)
-    file = EM::HttpRequest.new(image_url).get
-    img = ::MiniMagick::Image.read file.response
+  def product_image?(image_url, image)
+    #file = EM::HttpRequest.new(image_url).get
+    img = ::MiniMagick::Image.read image.response
     width = img[:width]
     height = img[:height]
     ratio = width.to_f / height.to_f
