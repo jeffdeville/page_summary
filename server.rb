@@ -6,7 +6,6 @@ require 'mechanize'
 require 'json'
 require "mini_magick"
 
-
 class GetSummary
   attr_reader :url
   

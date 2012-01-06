@@ -23,6 +23,8 @@ Gem::Specification.new do |s|
   s.add_dependency "mechanize"
   s.add_dependency "em-http-request"
   s.add_dependency "mini_magick"
+  s.add_dependency "goliath"
+
   # specify any dependencies here; for example:
   s.add_development_dependency "rspec"
   s.add_development_dependency "vcr"
