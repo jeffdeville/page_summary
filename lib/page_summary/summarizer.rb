@@ -1,4 +1,4 @@
-class HtmlParser
+class Summarizer
   attr_reader :url
 
   def initialize(url)
