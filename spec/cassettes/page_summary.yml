@@ -6429,3 +6429,263 @@
       = { track: null_fn, track_funnel: null_fn, register: null_fn, register_once:
       null_fn, register_funnel: null_fn };\n      }\n      </script>\n    </body>\r\n</html>\r\n\n\n\n"
     http_version: '1.1'
+- !ruby/struct:VCR::HTTPInteraction
+  request: !ruby/struct:VCR::Request
+    method: :get
+    uri: http://www.amazon.com:80/jeffwashere.jpg
+    body: !!null 
+    headers: !!null 
+  response: !ruby/struct:VCR::Response
+    status: !ruby/struct:VCR::ResponseStatus
+      code: 404
+      message: Not Found
+    headers:
+      date:
+      - Tue, 10 Jan 2012 21:22:14 GMT
+      server:
+      - Server
+      x-amz-id-1:
+      - 0823TYJFA1XA11FG8S0D
+      p3p:
+      - policyref="http://www.amazon.com/w3c/p3p.xml",CP="CAO DSP LAW CUR ADM IVAo
+        IVDo CONo OTPo OUR DELi PUBi OTRi BUS PHY ONL UNI PUR FIN COM NAV INT DEM
+        CNT STA HEA PRE LOC GOV OTC "
+      x-amz-id-2:
+      - dK0HEUxaZM6QojTMq9eYg1Mytohxp2rGMYM/BJWoYlv53Ic33GjtqqIzP6IpDM37
+      vary:
+      - Accept-Encoding,User-Agent
+      content-type:
+      - text/html; charset=ISO-8859-1
+      set-cookie:
+      - session-id-time=2082787201l; path=/; domain=.amazon.com; expires=Tue, 01-Jan-2036
+        08:00:01 GMT
+      - session-id=; path=/; domain=.amazon.com; expires=Tue, 01-Jan-2036 08:00:01
+        GMT
+      transfer-encoding:
+      - chunked
+    body: ! "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<html>\n  <head>\n<!--
+      oi -->\n<script type='text/javascript'><!--\nvar t0_date = new Date();\nvar
+      ue_t0 = t0_date.getTime();\n//--></script>\n<script type='text/javascript'><!--\nvar
+      ue_id = '0823TYJFA1XA11FG8S0D',\nue_url = '/jeffwashere.jpg/uedata//NoPageType',\nue_wl_on
+      = 0,\nue_pr = 0;\nvar ueinit=(ueinit||0)+1;var ue={t0:ue_t0,id:ue_id,url:ue_url,a:\"\",b:\"\",e:\"\",ec:0,h:{},r:{ld:0,oe:0,ul:0},s:1,t:{},sc:{},iel:[]};function
+      uet(c,e,g){var f=(new Date()).getTime();var a=!e&&typeof g!=\"undefined\";if(a){return}if(c){var
+      d=e?ues(\"t\",e)||ues(\"t\",e,{}):ue.t;d[c]=f;for(var b in g){ues(b,e,g[b])}}return
+      f}function ues(b,c,d){var e,a;if(b){e=a=ue;if(c&&c!=e.id){a=e.sc[c];if(!a){a={};d?(e.sc[c]=a):a}}e=d?(a[b]=d):a[b]}return
+      e}function ueh(e,f,d,b,a){var c=\"on\"+d;var g=f[c];if(typeof(g)==\"function\"){if(e){ue.h[e]=g}}else{g=function(){}}f[c]=a?function(h){b(h);g(h)}:function(h){g(h);b(h)};f[c].isUeh=1}function
+      uex(h,d,g){function c(D,B){var z=[D],u=0,A={};if(B){z.push(\"m=1\");A[B]=1}else{A=ue.sc}var
+      s;for(var t in A){var v=ues(\"wb\",t),y=ues(\"t\",t)||{},x=ues(\"t0\",t)||ue.t0;if(B||v==2){var
+      C=v?u++:\"\";z.push(\"sc\"+C+\"=\"+t);for(var w in y){if(w.length<=3&&y[w]){z.push(w+C+\"=\"+(y[w]-x))}}z.push(\"t\"+C+\"=\"+y[h]);if(ues(\"ctb\",t)||ues(\"wb\",t)){s=1}}}if(!e&&s){z.push(\"ctb=1\")}return
+      z.join(\"&\")}function j(s){var t=new Image();if(ue.b){t.onload=function(){var
+      u=ue.b;ue.b=\"\";j(u)}}else{t.onload=function(){if(window.ue_err&&ue_err._publishJsErrorsLog){ue_err._publishJsErrorsLog()}}}ue.iel.push(t);t.src=s;if(window.ue_err&&!ue_err.ts){ue_err.startTimer()}}function
+      p(s){var u=s.timing;if(u){ue.t.na_=u.navigationStart;ue.t.ul_=u.unloadEventStart;ue.t._ul=u.unloadEventEnd;ue.t.rd_=u.redirectStart;ue.t._rd=u.redirectEnd;ue.t.fe_=u.fetchStart;ue.t.lk_=u.domainLookupStart;ue.t._lk=u.domainLookupEnd;ue.t.co_=u.connectStart;ue.t._co=u.connectEnd;ue.t.sc_=u.secureConnectionStart;ue.t.rq_=u.requestStart;ue.t.rs_=u.responseStart;ue.t._rs=u.responseEnd;ue.t.dl_=u.domLoading;ue.t.di_=u.domInteractive;ue.t.de_=u.domContentLoadedEventStart;ue.t._de=u.domContentLoadedEventEnd;ue.t._dc=u.domComplete;ue.t.ld_=u.loadEventStart;ue.t._ld=u.loadEventEnd}var
+      t=s.navigation;if(t){ue.t.ty=t.type+ue.t0;ue.t.rc=t.redirectCount+ue.t0}}var
+      r=!d&&typeof g!=\"undefined\";if(r){return}for(var a in g){ues(a,d,g[a])}uet(\"pc\",d,g);var
+      l=ues(\"id\",d)||ue.id;var f=ue.url+\"?\"+h+\"&v=18&id=\"+l;var e=ues(\"ctb\",d)||ues(\"wb\",d);if(e){f+=\"&ctb=\"+e}if(ueinit>1){f+=\"&ic=\"+ueinit}var
+      o;if(document.ue_backdetect&&document.ue_backdetect.ue_back){o=document.ue_backdetect.ue_back;if(o.value>1){f+=\"&bf=\"+(o.value-1)}}if(ue._fi&&h==\"at\"&&(!d||d==l)){f+=ue._fi()}var
+      b;if(h==\"ld\"&&(!d||d==l)){if(window.onbeforeunload&&window.onbeforeunload.isUeh){window.onbeforeunload=null}if(o){o.value++}if(window._uess){b=_uess()}var
+      n=window.performance||window.webkitPerformance||window.mozPerformance;if(window.ue_navtiming&&n&&n.timing){ues(\"ctb\",l,\"1\");if(ue_navtiming==1){ue.t.tc=n.timing.fetchStart}else{if(ue_navtiming==3){ue.t.tc=n.timing.navigationStart}else{if(ue_navtiming==4){ue.t.tc=n.timing.requestStart}}}}if(window.ue_rnt&&n){p(n)}}uet(h,d,g);var
+      k=(h==\"ld\"&&d&&ues(\"wb\",d));if(k){ues(\"wb\",d,2)}var m=1;for(var i in ue.sc){if(ues(\"wb\",i)==1){m=0;break}}if(k){if(ue.s!=0||!m){return}f=c(f,null)}else{if(m){var
+      q=c(f,null);if(q!=f){ue.b=q}}if(b){f+=b}f=c(f,d||ue.id)}if(ue.b||k){for(var
+      i in ue.sc){if(ues(\"wb\",i)==2){delete ue.sc[i]}}}if(!k){ue.s=0;if(!window.ue_wl_jserr&&ue.e){f+=\"&ec=\"+ue.ec+ue.e;ue.e=\"\";ue.ec=0}if(window.ue_wl_jserr){if(window.ue_err&&ue_err.buf.length>0){f+=\"&ec=\"+ue_err.buf.length}}ues(\"t\",d,{})}ue.a=f;j(f)}function
+      uei(){var c=ue.r;function b(e){return function(){if(!c[e]){c[e]=1;uex(e)}}}window.onLd=b(\"ld\");window.onLdEnd=b(\"ld\");var
+      a={beforeunload:b(\"ul\"),error:function(j,h,i){ue.ec++;if(!ue.r.oe){ue.r.oe=1;ue.e+=\"&em=\"+escape(j)+\"&eu=\"+escape(h)+\"&el=\"+i}return
+      false},stop:function(){uex(\"os\")}};for(var d in a){ueh(0,window,d,a[d])}if(window.addEventListener){window.addEventListener(\"load\",window.onLd,false)}else{if(window.attachEvent){window.attachEvent(\"onload\",window.onLd)}}ue._uep=function(){new
+      Image().src=(window.ue_md?ue_md:\"http://uedata.amazon.com/uedata/?tp=\")+(+new
+      Date)};if(window.ue_pr&&(ue_pr==2||ue_pr==4)){ue._uep()}if(window.ue_wl_jserr){window.onerror=window.ueLogError}uet(\"ue\")}uei();\n//--></script>\n\n\n
+      \   \n<style type=\"text/css\"><!--\n\n\n\n\n\n.serif { font-family: times,serif;
+      font-size: medium; }\n.sans { font-family: verdana,arial,helvetica,sans-serif;
+      font-size: medium; }\n\n.small { font-family: verdana,arial,helvetica,sans-serif;
+      font-size: small; }\n\n.h1 { font-family: verdana,arial,helvetica,sans-serif;
+      color: #E47911; font-size: medium; }\n.h3color { font-family: verdana,arial,helvetica,sans-serif;
+      color: #E47911; font-size: small; }\nh2.small {margin-bottom: 0em; }\nh2.h1
+      { margin-bottom: 0em; }\nh2.h3color { margin-bottom: 0em; }\n.tiny { font-family:
+      verdana,arial,helvetica,sans-serif; font-size: x-small; }\n.tinyprice { font-family:
+      verdana,arial,helvetica,sans-serif; color: #990000; font-size: x-small; }\n.highlight
+      { font-family: verdana,arial,helvetica,sans-serif; color: #990000; font-size:
+      small; }\n.popover-tiny { font-size: x-small; font-family: verdana,arial,helvetica,sans-serif;
+      }\n.horizontal-search { font-weight: bold; font-size: small; color: #FFFFFF;
+      font-family: verdana,arial,helvetica,sans-serif; }\n.listprice { font-family:
+      arial,verdana,helvetica,sans-serif; text-decoration: line-through; }\n.price
+      { font-family: arial,verdana,helvetica,sans-serif; color: #990000; }\n.horizontal-websearch
+      { font-size: x-small; font-family: verdana,arial,helvetica,sans-serif; padding-left:
+      12px; }\n.big { font-size: xx-large; font-family: verdana,arial,helvetica,sans-serif;
+      }\n.amabot_widget .headline { color: #E47911; font-size: medium; display: block;
+      font-weight: bold; }\ndiv.unified_widget .headline { color: #E47911; font-size:
+      medium; display: block; font-weight: bold; }\n\ndiv#page-wrap { min-width: 980px;
+      }\n\n* html div#page-wrap { border-right: 980px solid #fff; width: 100%; margin-right:
+      25px;}\n* html div#content { float: left; position:relative; margin-right: -980px;
+      }\ndiv#leftcol, div#leftcolhidden { float: left; width: 180px; margin:5px 0px
+      0px 5px; display: inline; }\n\ndiv#rightcol, div#rightcolhidden { float: right;
+      width: 300px; margin-top:5px;}\n\ndiv#leftcolhidden { clear:left;}\ndiv#rightcolhidden
+      { clear:right; }\n\n div#center1, div#centercol, div#centerrightspancol { overflow:
+      hidden; }\n\n* html div#center1 { width: 100% }\n* html div#centercol { width:
+      100%; }\n\n* html div#centerrightspancol { width: 100%; }\ndiv#page-footer {
+      clear: both; }\n\na:link { font-family: verdana,arial,helvetica,sans-serif;
+      color: #004B91; }\na:visited { font-family: verdana,arial,helvetica,sans-serif;
+      color: #996633; }\na:active { font-family: verdana,arial,helvetica,sans-serif;
+      color: #FF9933; }\n\na.noclick, a.noclick:visited { color: #000000; }\n\n.noLinkDecoration
+      a { text-decoration: none; border-bottom: none; }\n.noLinkDecoration a:hover
+      { text-decoration: underline; }\n.noLinkDecoration a.dynamic:hover { text-decoration:
+      none; border-bottom: 1px dashed; }\n.noLinkDecoration a.noclick:hover { color:
+      #000000; text-decoration: none; border-bottom: 1px dashed; }\n\n.attention {
+      background-color: #FFFFD5; }\n.alertgreen { color: #009900; font-weight: bold;
+      }\n.alert { color: #FF0000; font-weight: bold; }\n.topnav { font-family: verdana,arial,helvetica,sans-serif;
+      font-size: 12px; text-decoration: none; }\n.topnav a:link, .topnav a:visited
+      { text-decoration: none; color: #003399; }\n.topnav a:hover { text-decoration:
+      none; color: #E47911; }\n.topnav-active a:link, .topnav-active a:visited { font-family:
+      verdana,arial,helvetica,sans-serif; font-size: 12px; color: #E47911; text-decoration:
+      none; }\n.eyebrow { font-family: verdana,arial,helvetica,sans-serif; font-size:
+      10px; font-weight: bold;text-transform: uppercase; text-decoration: none; color:
+      #FFFFFF; }\n.eyebrow a:link { text-decoration: none; }\n.popover-tiny a, .popover-tiny
+      a:visited { text-decoration: none; color: #003399; }\n.popover-tiny a:hover
+      { text-decoration: none; color: #E47911; }\n.tabon a:hover, .taboff a:hover
+      { text-decoration: underline; }\n.tabon div, .taboff div { margin-top: 7px;
+      margin-left: 9px; margin-bottom: 5px; }\n.tabon a, .tabon a:visited  { font-size:
+      10px; color: #FFCC66; font-family: verdana,arial,helvetica,sans-serif; text-decoration:
+      none; text-transform: uppercase; font-weight: bold; line-height: 10px; }\n.taboff
+      a, .taboff a:visited { font-size: 10px; color: #000000; font-family: verdana,arial,helvetica,sans-serif;
+      text-decoration: none; text-transform: uppercase; font-weight: bold; line-height:
+      10px; }\n.indent { margin-left: 1em; }\n.half { font-size: .5em; }\n.list div
+      { margin-bottom: 0.25em; text-decoration: none; }\n.hr-center { margin: 15px;
+      border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width:
+      1px; border-top-style: dotted; border-right-style: none; border-bottom-style:
+      none; border-left-style: none; border-top-color: #999999; border-right-color:
+      #999999; border-bottom-color: #999999; border-left-color: #999999; }\n\n\n.amabot_right
+      .h1 { color: #E47911; font-size: .92em; }\n.amabot_right .amabot_widget .headline,
+      .amabot_left .amabot_widget .headline { color: #E47911; font-size: .92em; display:
+      block; font-weight: bold; }\n.amabot_left .h1 { color: #E47911; font-size: .92em;
+      }\n.amabot_left .amabot_widget, .amabot_right .amabot_widget, .tigerbox {  padding-top:
+      8px;  padding-bottom: 8px;  padding-left: 8px;  padding-right: 8px;  border-bottom:
+      1px solid #C9E1F4;   border-left: 1px solid #C9E1F4;  border-right: 1px solid
+      #C9E1F4;  border-top: 1px solid #C9E1F4; }\n\n.amabot_center div.unified_widget,
+      .amabot_center .amabot_widget {  font-size: 12px; }\n.amabot_right div.unified_widget,
+      .amabot_right .amabot_widget {  font-size: 12px; }\n.amabot_left div.unified_widget,
+      .amabot_left .amabot_widget {  font-size: 12px; }\n\n.rightArrow { color: #E47911;
+      font-weight: bold; padding-right: 6px; }\n.nobullet { list-style-type: none
+      }\n.homepageTitle { font-size: 28pt; font-family: 'Arial Bold', Arial; font-weight:
+      800; font-variant: normal; color: #80B6CE; line-height:1em; }\ndiv.unified_widget
+      p { margin:0 0 0.5em 0; line-height:1.4em; }\n\ndiv.unified_widget h2 { color:#E47911;
+      padding:0; }\n\n.amabot_right div.unified_widget .headline, .amabot_left div.unified_widget
+      .headline { color: #E47911; font-size: .92em; display: block; font-weight: bold;
+      }\ndiv.unified_widget sup { font-weight:normal; font-size: 75%; }\ndiv.unified_widget
+      h2 sup { font-size: 50%; }\n\ntd.amabot_left div.unified_widget h2, td.amabot_right
+      div.unified_widget h2, div.amabot_left div.unified_widget h2, div.amabot_right
+      div.unified_widget h2 { font-size:100%; margin:0 0 0.5em 0; }\ntd.amabot_center
+      div.unified_widget h2, div.amabot_center div.unified_widget h2 { font-size:135%;
+      font-weight:bold; margin:0 0 0.35em 0px; }\ntd.amabot_center, div.amabot_center
+      { padding:5px 15px 5px 10px; } \ndiv.unified_widget ul { margin: 1em 0; padding:
+      0 0 0 15px; list-style-position:inside; }\n\ndiv.unified_widget ol { margin:0;
+      padding:0 0 0 2.5em; }\n\ndiv.unified_widget a:link, div.unified_widget a:visited
+      { text-decoration:underline; }\ndiv.unified_widget a:hover { text-decoration:underline;
+      }\ndiv.unified_widget p.seeMore { clear:both; font-family:verdana,arial,helvetica,sans-serif;
+      margin:0; padding-left:1.15em; text-indent: -1.15em; font-size:100%; font-weight:normal;
+      }\ndiv.unified_widget p.seeMore a:link, div.unified_widget p.seeMore a:visited
+      { text-decoration:underline; }\ndiv.unified_widget p.seeMore a:hover { text-decoration:
+      underline; }\ndiv.unified_widget .carat, div.left_nav .carat { font-weight:bold;
+      font-size:120%; font-family:verdana,arial,helvetica,sans-serif; color:#E47911;
+      margin-right:0.20em; }\ndiv.unified_widget a img { border:0; }\n\ndiv.h_rule
+      { clear:both; }\ndiv#centerrightspancol div.h_rule { clear:right; }\ndiv.unified_widget
+      { margin-bottom:2em; clear:both; }\ndiv.unified_widget div.col1 { width: 100%;
+      }\ndiv.unified_widget div.col2 { width: 49%; }\ndiv.unified_widget div.col3
+      { width: 32%; }\ndiv.unified_widget div.col4 { width: 24%; }\ndiv.unified_widget
+      div.col5 { width: 19%; }\ndiv.unified_widget table { border:0; border-collapse:collapse;
+      width:100%; }\ndiv.unified_widget td { padding:0 8px 8px 0; vertical-align:top;
+      }\ndiv.unified_widget table.col1 td { width:100%; }\ndiv.unified_widget table.col2
+      td { width:49%; }\ndiv.unified_widget table.col3 td { width:32%; }\ndiv.unified_widget
+      table.col4 td { width:24%; }\ndiv.unified_widget table.col5 td { width:19%;
+      }\ndiv.unified_widget td.bottom { vertical-align:baseline; }\ndiv.unified_widget
+      table h4, div.unified_widget h4 { color:#000; font-size:100%; font-weight:normal;
+      margin:0; padding:0; }\ndiv.rcmBody div.prodImage, amabot_widget div.prodImage
+      {float:left; margin:0px 0.5em 0.25em 0px;}\n\n\ntd.amabot_right div.unified_widget,
+      td.amabot_left div.unified_widget, div.amabot_right div.unified_widget, div.amabot_left
+      div.unified_widget { border: 1px solid #C9E1F4; padding: 8px; margin-bottom:20px;
+      }\n\n* html td.amabot_right div.unified_widget, * html div.amabot_right div.unified_widget
+      { height:100%; }\n* html td.amabot_left div.unified_widget, * html div.amabot_left
+      div.unified_widget { height:100%; }\n\ndiv.rcmBody, amabot_widget div.rcmBody
+      { line-height:1.4em; }\ndiv.rcmBody a:link, div.rcmBody a:visited { text-decoration:
+      underline; }\n\ndiv.rcmBody p.seeMore, amabot_widget div.rcmBody p.seeMore {
+      margin-top:0.5em; }\ndiv.rcmBody div.bannerImage { text-align:center; }\ndiv.rcmBody
+      h2 span.homepageTitle { display:block; margin-bottom:-0.3em; margin-top:-0.12em;
+      line-height:1em; }\ndiv.rcmBody h2 img { float:none; }\ntable.coopTable div.rcmBody
+      .headline { font-size: 110%; }\ntable.coopTable div.rcmBody h2 { font-size:
+      110%; font-weight:bold; }\ntable.promo div.rcmBody h2 { font-size: 100%; font-weight:bold;
+      }\n\ndiv.left_nav { font-family: Arial, sans-serif; font-size:100%; margin:0;
+      line-height:1.05em; width:100%; border: 1px solid #C9E1F4; padding-bottom:10px;
+      }\ndiv.left_nav h2 { margin:0 0 0 0; color: #000000; font-weight: bold; line-height:
+      1.25em; font-size: 100%; font-family: verdana,arial,helvetica,sans-serif; padding:
+      3px 6px; background-color: #EAF3FE; }\ndiv.left_nav h3 { font-family: verdana,arial,helvetica,sans-serif;
+      margin:0.5em 0 0.4em 0.5em; color: #E47911; font-weight: bold; line-height:
+      1em; font-size:100%; padding-right:0.5em; }\ndiv.left_nav ul { margin:0; padding:0;
+      }\ndiv.left_nav li, div.left_nav p { list-style: none; margin:0.5em 0.5em 0
+      1em; line-height:1.2em; }\n\ndiv.left_nav hr { margin: 1em 0.5em; border-top:0;
+      border-left:0; border-right:0; border-bottom: 1px dashed #cccccc; }\n\ndiv.left_nav
+      a:link, div.left_nav a:visited { color: #003399; text-decoration: none; font-family:
+      Arial, sans-serif; }\ndiv.left_nav a:hover { color: #2a70fc; text-decoration:
+      underline; }\ndiv.left_nav p.seeMore { padding-left:0.9em; text-indent:-0.9em;
+      margin-top: 0.35em; margin-bottom: 1em; }\n\ndiv.left_nav p.seeMore a:link,
+      div.left_nav p.seeMore a:visited { text-decoration:none; }\ndiv.left_nav p.seeMore
+      a:hover { text-decoration:underline; }\ndiv.seller_central li { font-size:95%;
+      }\n\ndiv.leftnav_popover { width:35em; border:3px solid #ededd3; padding:10px;
+      }\n\ndiv.leftnav_popover li { font-size: 100%; }\n\ndiv.leftnav_popover h2 {
+      font-family:verdana,arial,helvetica,sans-serif; margin:0 0 0.5em 0; color:#E47911;
+      line-height: 1em; font-size:100%; padding-right:0.5em; background-color: #FFFFFF;
+      padding-left:0; }\n\ndiv.leftnav_popover ul.popover_col { float:left; width:33%;
+      margin:0; padding:0; }\ndiv.leftnav_popover ul.popover_col li { list-style:none;
+      font-size:90%; line-height:1.5em; line-height:1.2em; margin: 0 5px 0.7em 0 }\ndiv.leftnav_popover
+      ul.popover_col li a { text-decoration:none; }\ndiv.leftnav_popover ul.popover_col
+      li a:hover { text-decoration:underline; }\ndiv.leftnav_popover p.seeMore { margin-left:0;
+      }\ndiv.leftnav_popover div.h_rule_popup { clear:left; margin-bottom: 5px; border-bottom:1px
+      dashed #cccccc; }\n\ndiv.asinItem { float:left; margin-bottom:1em; width:32%;
+      }\ndiv.asinTextBlock { padding:0 8px 8px 0; }\ndiv.asinItem div.prodImage {
+      height:121px; display:table-cell; vertical-align:bottom; }\ndiv.asinItem div.localImage
+      { display:table-cell; vertical-align:bottom; }\n\ndiv.asinItem span { margin:
+      0.5em 0 0.25em 0; }\ndiv.asinItem ul { margin:0; padding:0 0 0.5em 1.3em; text-indent:
+      -1.3em; font-size:90%; }\n\ndiv.asinTitle {padding-top:3px; padding-bottom:2px;}\ndiv.row
+      { clear:both; }\nbody.dp {}\nbody.dp div.h_rule { clear:none; }\nbody.dp div.unified_widget
+      { clear:none; }\ndiv.asinCoop div.asinItem { float:none; width:100%;}\ndiv.asinCoop_header
+      {}\ndiv.asinCoop_footer {}\n\ndiv.newAndFuture div.asinItem ul { font-size:100%;
+      }\ndiv.newAndFuture div.asinItem li { list-style-position: outside; margin:0
+      0 0.35em 20px; padding:0; text-indent: 0; }\ndiv.newAndFuture h3 { font-size:100%;
+      margin:1em 0 ; }\ndiv.newAndFuture a:link, div.newAndFuture a:visited { text-decoration:underline;
+      }\ndiv.newAndFuture a:hover { text-decoration:underline; }\ndiv.newAndFuture
+      p.seeMore { margin:-0.75em 0 0 35px; }\n\ndiv.unified_widget ol.topList { margin:
+      0; padding: 0; list-style: none; }\ndiv.unified_widget ol.topList li { list-style:
+      none; clear: both; display: list-item; padding-top: 6px; }\ndiv.unified_widget
+      ol.topList .productImage { display: block; float: left;vertical-align: top;text-align:
+      center;width:60px; }\ndiv.unified_widget ol.topList .productText { display:
+      block; float: left; padding-left:10px; vertical-align: top; }\n:root div.unified_widget
+      span.productImage { display: table-cell; float: none; }\n:root div.unified_widget
+      span.productText { display: table-cell; float: none; }\ndiv.unified_widget dl.priceBlock
+      {margin:0 0 0.45em 0;}\ndiv.unified_widget dl.priceBlock dt {clear:left; font-weight:bold;
+      float:left; margin:0 0.3em 0 0;}\ndiv.unified_widget dl.priceBlock dd {margin:0
+      0 0.2em 0;}\ndiv.unified_widget .bold {font-weight:bold;}\ndiv.unified_widget
+      .byline { font-size: 95%; font-weight: normal; }\ntable.thirdLvlNavContent div.blurb
+      { margin:10px; }\n\ndiv.pageBanner h1 { font-family:Arial, Helvetica, sans-serif;
+      font-weight:normal; font-size:225%; color: #e47911; letter-spacing:-0.03em;
+      margin:0; }\ndiv.pageBanner p { font-size:90%; color:#888888; margin:0; }\n\ndiv.pageBanner
+      h1.bkgnd { background-repeat:no-repeat; background-color:#FFFFFF; overflow:hidden;
+      text-indent:-100em; }\n\ndiv.blurb div.title\n{\n    font-weight:bold; padding-top:5px;
+      padding-bottom:2px;\n}\n\n--></style>\n<script language=\"Javascript1.1\" type=\"text/javascript\">\n<!--\nfunction
+      amz_js_PopWin(url,name,options){\n  var ContextWindow = window.open(url,name,options);\n
+      \ ContextWindow.focus();\n  return false;\n}\n//-->\n</script>\n\n    <title>404
+      - Document Not Found</title> \n \n  </head>\n  <body bgcolor=\"#FFFFFF\" text=\"#000000\">\n
+      \   \n<center>\n<a href=\"/\"><img src=\"http://g-ecx.images-amazon.com/images/G/01/x-locale/common/small-logo._V192240376_.gif\"
+      width=\"142\" height=\"31\" border=\"0\" /></a>\n  <br />\n  <br />\n  <table
+      border=\"0\" align=\"center\" cellpadding=\"4\">\n    <tr>\n      <td> \n        <img
+      src=\"http://g-ecx.images-amazon.com/images/G/01/x-locale/common/kailey-kitty._V192239871_.gif\"
+      width=\"40\" height=\"35\" border=\"0\" />\n      </td>\n      <td valign=\"middle\"
+      class=\"sans\">\n        <b class=\"h1\"> \n          Looking for something?\n
+      \       </b>\n        <br />\n          We're sorry. The Web address you entered
+      is not a functioning page on our site\n        <br />\n        <br />\n        <img
+      src=\"http://g-ecx.images-amazon.com/images/G/01/x-locale/common/orange-arrow._V192240581_.gif\"
+      width=\"10\" height=\"9\" border=\"0\" />\n        <b>\n          Go to Amazon.com's
+      <a href=\"/\">Home</a> Page\n        </b>\n      </td>\n    </tr>\n  </table>\n</center>\n\n<!--\n
+      \ 71.185.215.167\n-->\n\n<!-- whfh-dK0HEUxaZM6QojTMq9eYg1Mytohxp2rGMYM/BJWoYlv53Ic33GjtqqIzP6IpDM37
+      rid-0823TYJFA1XA11FG8S0D -->\n\n\n\n  \n  <div id='be' style='display:none;'><form
+      name='ue_backdetect'><input name='ue_back' value='1' type='hidden'></form>\n<script
+      type='text/javascript'><!--\nvar _uess=function(){var c=\"\";if(screen&&screen.width&&screen.height){c+=\"&sw=\"+screen.width+\"&sh=\"+screen.height}var
+      b=function(f){var e=document.documentElement[\"client\"+f];return document.compatMode===\"CSS1Compat\"&&e||document.body[\"client\"+f]||e};var
+      d=b(\"Width\"),a=b(\"Height\");if(d&&a){c+=\"&vw=\"+d+\"&vh=\"+a}return c};\nif(window.uet){uet(\"be\")}if(window.onLdEnd){if(window.addEventListener){window.addEventListener(\"load\",window.onLdEnd,false)}else{if(window.attachEvent){window.attachEvent(\"onload\",window.onLdEnd)}}}if(window.ueh){ueh(0,window,\"load\",window.onLd,1)}if(window.ue_pr&&(window.ue_pr==3||window.ue_pr==4)){window.ue._uep()};\n//--></script>\n</div>\n<noscript><img
+      height=1 width=1 style='display:none;visibility:hidden' src='/gp/uedata/?noscript&amp;id=0823TYJFA1XA11FG8S0D'
+      /></noscript>\n</body>\n</html>\n\n\n\n"
+    http_version: '1.1'

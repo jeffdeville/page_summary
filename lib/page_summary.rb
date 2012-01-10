@@ -1,3 +1,4 @@
+require 'uri'
 require "page_summary/version"
 require "page_summary/config"
 require "page_summary/em_mechanize"
