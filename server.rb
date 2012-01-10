@@ -1,4 +1,3 @@
-require 'rubygems'
 require 'em-websocket'
 require 'em-synchrony'
 require 'em-synchrony/em-http'
@@ -6,7 +5,6 @@ require 'mechanize'
 
 require 'json'
 require "mini_magick"
-
 
 class GetSummary
   attr_reader :url

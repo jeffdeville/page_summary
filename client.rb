@@ -14,12 +14,13 @@ class ClientTest < EM::Connection
 
   def unbind 
     puts "disconnected"
+    close_connection
+    EM.stop
   end
 
   def receive_data(data)
     puts data
-    close_connection
-    EM.stop
+
   end
 end
 
