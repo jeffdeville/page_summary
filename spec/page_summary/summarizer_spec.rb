@@ -1,6 +1,4 @@
 require 'spec_helper'
-require 'vcr_setup'
-require 'synchrony_rspec'
 include PageSummary
 
 describe Summarizer do
@@ -48,7 +46,7 @@ describe Summarizer do
     let(:mock_response_header) do
       m = mock()
       m.expects(:response_header).returns(EM::HttpResponseHeader.new).times(3)
-      m 
+      m
     end
     before do
       EM::HttpRequest.expects(:new).returns(mock_request).times(3)

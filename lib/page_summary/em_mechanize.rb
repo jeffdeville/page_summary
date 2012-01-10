@@ -1,10 +1,9 @@
 require 'mechanize'
-#require 'em-synchrony'
-#require 'em-synchrony/em-http'
 
 module PageSummary
   class EmMechanize
     extend EmDownloader
+
     def self.load_url(url)
       load_from_url(url) do |request|
         mech = Mechanize.new
