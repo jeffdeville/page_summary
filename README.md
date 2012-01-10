@@ -1,4 +1,5 @@
 # page_summary
+[![Build Status](https://secure.travis-ci.org/jeffdeville/page_summary.png)](http://travis-ci.org/jeffdeville/page_summary)
 page_summary is designed to create summaries of pages the way Facebook does, when you copy a link into a status update.
 
 ## Usage
