@@ -1,7 +1,6 @@
 require "em-synchrony"
 require 'em-synchrony/em-http'
 require 'mini_magick'
-require 'ap'
 
 module PageSummary
   class EmMiniMagick
