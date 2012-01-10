@@ -1,9 +1,11 @@
+require 'URI'
+
 module PageSummary
   class Summarizer
     attr_reader :url
 
     def initialize(url)
-      @url = url
+      @url = URI.parse url
     end
 
     def mech_page
