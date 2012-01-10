@@ -1,6 +1,7 @@
 require 'spec_helper'
 require 'vcr_setup'
 require 'synchrony_rspec'
+include PageSummary
 
 describe EmMechanize do
   context "when loading the html for a page" do
