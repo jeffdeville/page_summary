@@ -19,16 +19,12 @@ module PageSummary
             response.response_header["content-type"] = response.response_header["CONTENT_TYPE"]
             page = Mechanize::Page.new(response.req.uri, response.response_header, response.response, 200, mech)
             return page
-          when 301, 302
-            url = response.response_header['location']
-          when 404
-            raise HTTP404, url
+          when 301, 302 then url = response.response_header['location']
+          when 404 then raise HTTP404, url
           when 0
-            # If a network error occurred, try again up to 3 times
-            tries += 1
+            tries += 1 # If a network error occurred, try again up to 3 times
             raise HTTPNetworkError, url if tries == 3
-          else
-            raise StandardError, "Something went wrong, but I don't know what. #{response.response_header.status}"
+          else raise StandardError, "Something went wrong, but I don't know what. #{response.response_header.status}"
         end
       end
     end
